@@ -1,0 +1,2169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <style>
+        .nav{
+            display: flex;
+            width: auto;
+        }
+        .ul1{
+            display: flex;
+            
+            justify-content: space-evenly;
+            list-style-type: none ;
+            width: 30%;
+        }
+        nav li:hover{
+            text-decoration: underline red;
+        }
+        nav a{
+            text-decoration: none;
+        }
+        .ul2{
+            position: absolute;
+            margin-top: 10px;
+            right: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 30%;
+            list-style-type: none;            
+        }
+        .bt1{
+            position: absolute;
+            font-family:sans-serif;
+            top: 200px;
+            left:5%;
+            font-size: xx-large ;
+            color: #ffffff;
+        }
+        .logo{
+            position: fixed;
+            width: 100%;
+            height: 300px;
+            
+        }
+        .bt2{
+            color: white;
+            position: absolute;
+            font-size: larger;
+            top: 500px;
+            left: 5%;
+        }
+        .bb1{
+            position: absolute;
+            top: 600px;
+            left: 5%;
+            color: #000;
+            background-color: #ffffff;
+            height: 20px;
+            padding: 5px;
+            text-align: center;
+            width: 100px;
+        }
+        .bt3{
+            width: auto;
+            color: #ffffff;
+            position: absolute;
+            top: 610px;
+            left: 12%;
+        
+        }
+        .atag{
+            color: #ffffff;
+        }
+        .sec2{
+            display: flex;
+            font-size: large;
+            word-spacing: 2px;
+        }
+        .ss1{
+            margin-top: 15px;
+        }
+        .post1{
+            display: flex;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .postl{
+            width: 50%;
+            height: 300px;
+        }
+        .postr:hover{
+            transform:scale(1.1) ;
+        }
+        .line5{
+            margin-right: 20%;
+
+
+        }
+            
+        
+        
+        .pt1{
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 50px;
+            margin-left: 20px;
+            font-size: 60px;
+        }
+        .pt2{
+            margin-top: 100px;
+            margin-left: 20px;
+            font-size: 100%;
+        }
+        .pob1{
+            display: flex;
+        }
+        .pt4{
+            background-color: #000;
+            color: #fdfcfc;
+            
+            padding: 5px;
+            text-align: center;
+            width: fit-content;
+            margin-left: 10px;
+
+        }
+        .pt5{
+
+            border: 1px solid;
+            background-color: #fdfbfb;
+            color: #080808;
+            
+            padding: 5px;
+            text-align: center;
+            width: fit-content;
+            margin-left: 10px;
+        }
+        .tt{
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 150px;
+            font-size: 40px; 
+        }
+        .tvt{
+            margin-top: 100px;
+            padding-left: 15%;
+            padding-right: 15%;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .tvl{
+            
+            background-color: whitesmoke;
+            width: 45%;
+            height: 350px;
+        }
+        .tv1{
+        
+            margin-top: 10px;
+            margin-left: 2%;
+            font-size: 350%;
+            font-family: monospace;
+        }
+        
+        .tvimg{
+            position: relative;
+            margin-top: -200px;
+            margin-left: 50%;
+            
+            
+            
+        }
+        .tvimg:hover{
+            transform: scale(1.1);
+        }
+        .tv2{
+            margin-top: -60px;
+            margin-left: 5%;
+            font-size: large;
+        }
+        .tvbuy{
+            position: absolute;
+            background-color: #000;
+            color: white;
+            padding: 5px;
+            width: 100px;
+            height: 20px;
+            margin-top: -20px;
+            margin-left: 30px;
+        }
+        .tvmore{
+            position: absolute;
+            border: 1px solid;
+            background-color: #ffffff;
+            color: #000;
+            width: 100px;
+            height: 20px;
+            margin-top: -15px;
+            margin-left: 150px;
+            
+        }
+            
+        
+        .tvr{
+            background-color: whitesmoke;
+            width: 45%;
+            height: 350px;
+            
+        }
+        .ap1{
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 2%;
+            font-size: 350%;
+            font-family: monospace;
+        }
+        .apimg{
+            position: relative;
+            margin-top: -10px;
+            margin-left: 50%;
+        }
+        .apimg:hover{
+            transform: scale(1.1)
+        }
+        .ap2{
+            position: relative;
+            margin-top: -150px;
+            margin-left: 5%;
+            font-size: medium;
+        }
+        .ap3{
+            margin-top: -100px;
+            margin-left: 5%;
+            font-size: large;
+        }
+        .apbuy{
+            position: absolute;
+            margin-top: 50px;
+            background-color: #000;
+            color: white;
+            padding: 5px;
+            width: 100px;
+            height: 20px;
+            margin-left:30px;
+        }
+        .apmore{
+            position: absolute;
+            border: 1px solid;
+            background-color: #ffffff;
+            color: #000;
+            width: 100px;
+            height: 20px;
+            margin-top: 55px;
+            margin-left: 150px;
+        }
+        .text1{
+            font-family: monospace;
+            font-size: xx-large;
+            font-style: oblique;
+            line-height: 10px;
+            margin-left: 300px;
+        }
+        .ul3{
+            display: flex;
+            margin-top: 70px;
+            margin-left:250px;
+            font-size: xx-large;
+            justify-content: space-evenly;
+            list-style-type: none ;
+            width: 50%;
+        }
+        .mob{
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            padding-left:11%;
+            padding-right: 11%;
+            
+        }
+        .mobi1:hover{
+            transform: scale(1.1);
+        }
+        .mob1{
+            background-color: whitesmoke;
+            width: 20%;
+            
+            
+        }
+        .mob1t1{
+            margin-top: 10px;
+            font-size: 25px;
+        }
+        
+        
+        .mob1buy:hover{
+            margin-top: 10px;
+            background-color: #000000;
+            color: #ffffff;
+            width: 100%;
+            height: 20px;
+            text-align: center;
+        }
+        .text2{
+            margin-top: 30px;
+            padding-bottom: 10px;
+
+            text-align: center;
+        }
+        .ban2{
+            background-color: #000;
+            width: 100%;
+            display: flex;
+        }
+        .ban2l{
+            padding: 10%;
+            
+        }
+        .ban2l:hover{
+            transform: scale(1.1);
+        }
+        .ban2r{
+            color: #ffffff;
+            margin-top: 10%;
+            font-size: 500%;
+            margin-left: 1px;
+        }
+        .ban2rt{
+            margin-top: 200px;
+
+            color: #ffffff;
+            font-size: medium;
+        }
+        .ban2b{
+            background-color: #ffffff;
+            color: #000;
+            font-size: large;
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            padding: auto;
+        }
+        .ban2lt{
+            color: white;
+            font-size: larger;
+            margin-top: 1px;
+            margin-left: 100px;
+        }
+        .ban2lt1{
+            margin-top: 1px;
+            color: white;
+            font-size: 500%;
+ 
+        }
+        .ban2lt2{
+            margin-top: 1px;
+        }
+        .ban2lt3{
+            background-color: #ffffff;
+            color: #000;
+            font-size: large;
+            text-align: center;
+            width: 200px;  
+        }
+        .ban2i{
+            margin-top: 10px;
+            padding: 0 10% 0 10%;
+        }
+        .ban2i:hover{
+            transform: scale(1.1);
+        }
+        .ban2i3{
+            margin-top: 1px;
+            padding-left:  10%;
+            padding-right: 30%;
+        }
+        .ban2i3:hover{
+            transform: scale(1.1);
+        }
+        .ban4t1{
+            color: white;
+            font-size: xxx-large;
+            margin-left: -500px;
+            margin-top: -10px;
+            
+        }
+        .ban4t2{
+            color: #ffffff;
+            font-size: medium;
+            margin-top: 20px;
+            margin-left: -500px;
+
+        }
+        .atag1{
+            color: #ffffff;
+            margin-top: 10px;
+            
+            margin-left: -500px;
+
+        }
+        .ban3r{
+            margin-top: 10px;
+            margin-left:10px;
+
+        }
+        .text3{
+            color: #ffffff;
+            margin-top: 100px;
+            margin-left: 5%;
+            
+        }
+        .line{
+            margin-left: 5%;
+            margin-right: 10%;
+
+        }
+        .text4{
+            color: #ffffff;
+            
+            margin-left: 5%;
+            font-size: xxx-large;
+        }
+        .text41{
+            position: absolute;
+            color: red;
+            margin-top: 100px;
+            font-size: xxx-large;
+            margin-left: 350px;
+        }
+        .ban4rt{
+            color: white;
+        
+        
+            font-size: xx-large;
+        }
+        .ban4{
+            padding: 10%;
+            width: 100%;
+            
+        }
+        .ban4:hover{
+            transform: scale(1.1);
+        }
+        .text5{
+            color: #ffffff;
+            font-size: 350%;
+            margin-left: 5%;
+        }
+        .text51{
+            
+            position: absolute;
+            color: #ff0000;
+            font-size: 350%;
+            margin-left: 950px;
+            margin-top: 120px;
+        }
+        .hr1{
+            width: 8%;
+            size: 2px;
+            margin-top: -20px;
+            margin-left: 300px;
+            background-color: #ffffff;
+            color: red;
+        }
+        .ban5t1{
+            color: #ffffff;
+            margin-top: auto;
+            font-size: 200%;
+        }
+        .ban5t2{
+            color: #ffffff;
+            margin-top: 200px;
+            font-size: xx-large;
+
+        }
+        .ban5t3{
+            color: #ffffff;
+            font-size: x-large;
+        }
+        .ban5l{
+            padding: 0 10% 10% 10%;
+        }
+        .ban5l:hover{
+            transform: scale(1.1);
+        }
+        .table{
+            margin-top: -50px;
+            background-color: #000000;
+            display: flex;
+            padding: 0 5% 0 5%;
+        }
+        .table1l{
+            background-color: #1c1c1c;
+            width: 50%;
+            height: 500px;
+
+        }
+        .t1{
+            color: #5c5c5c;
+            font-size: xx-large;
+            margin-left: 20px;
+        }
+        .t2{
+            color: #ffffff;
+            font-size: xxx-large;
+            margin-left: 20px;
+        }
+        .t3{
+            color: #ffffff;
+            font-size: large;
+            margin-top: 150px;
+            margin-left: 20px;
+        }
+        .t4{
+            color: #ffffff;
+            margin-left: 20px;
+            margin-top: auto;
+        }
+        .table1r{
+            width: 50%;
+            height: 500px;
+            padding-right: 10%;
+        }
+        .table2l{
+            background-color: #1c1c1c;
+            width: 50%;
+        }
+        .t21{
+            color: #5c5c5c;
+            font-size: x-large;
+            margin-left: 20px;
+        }
+        .t22{
+            color: #ffffff;
+            font-size: xx-large;
+            margin-left: 20px;
+
+        }
+        .t23{
+            color: white;
+            font-size: large;
+            margin-top: 100px;
+            margin-left: 20px;
+        }
+        .t24{
+            color: #ffffff;
+            margin-left: 20px;
+        }
+        .table2r{
+            width: 50%;
+            
+        }
+        .text6{
+            color: #000000;
+            margin-left: 10%;
+        }
+        .line2{
+            color: #000000;
+            size: 2px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .text61{
+            position: absolute;
+            color: #ff0000;
+            font-size: 350%;
+            margin-left: 600px;
+            margin-top: 100px;
+        }
+        .ban6{
+            background-color: #ffffff;
+            display: flex;
+            padding-left: 5%;
+            
+        }
+        .b6t1{
+            font-size: large;
+            margin-left: 5px;
+        }
+        .b6t2{
+            font-size: large;
+            
+            margin-left: 1400px;
+        }
+        .ban7{
+            display: flex;
+            padding-left: 5%;
+        }
+        .b7t1{
+            font-size: xxx-large;
+        }
+        .b7t2{
+            font-size: large;
+            margin-top: 250px;
+        }
+        .b7t3{
+            font-size: xx-small;
+            color: #000;
+        }
+        .table3{
+            display: flex;
+            padding: 5% 5% 0 5%;
+            justify-content: space-evenly;
+        }
+        .t31{
+            padding-right: 5%;
+            width: 75%;
+        }
+        .t3t1{
+            width: 75%;
+            font-size: xx-large;
+        }
+        .t3t2{
+            color: #000;
+        }
+        .t32{
+            padding-right: 5%;
+            width: 75%;
+        }
+        .t33{
+            padding-right: 5%;
+            width: 75%;
+        }
+        .t3t3{
+            width: 75%;
+        }
+        .line6{
+            padding-left: 5%;
+        }
+        .t40{
+            display: flex;
+            
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .t41{
+           background-color: #d1cdcd; 
+        }
+        .t4t1{
+            font-size: large;
+            color: #8a8989;
+            padding-left: 2%;
+        }
+        .t4t2{
+            font-size: xx-large;
+            padding-left: 2%;
+        }
+        .t4t3{
+            font-size: large;
+            margin-top: 250px;
+            padding-left: 2%;
+        }
+        .t4t4{
+            color: black;
+            padding-left: 2%;
+        }
+        .t43{
+            background-color: #d1cdcd;
+            margin-left: 2%;
+        }
+        .d1,.d2,.d3{
+            border: 2px solid rgb(234,234,234);
+            border-collapse: collapse;
+
+        }
+        .d1{
+            margin-top: 5%;
+            margin-left: 10%;
+            right: 10%;
+            width: 80%;
+            height: 70px;
+        }
+        .d3{
+            padding-left: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        #a97{
+            background-color: black;
+            width: 100%;
+            height: 470px;
+            position: relative;
+            
+            
+        }
+        #a98{
+            position: relative;
+            top: 40px;
+            left: 5%;
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        #a99{
+            position: relative;
+            top: 30px;
+            
+            color: rgba(77, 77, 77, 0.281);
+            width: 90%;
+        }
+        #a100{
+            display: flex;
+            margin-left: 10%;
+            margin-right: 80px;
+            margin-top: 60px;
+        }
+        .a101{
+            margin-left: 10%;
+        }
+        #e1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 30px;
+            position: relative;
+            top: -350px;
+            left: 20px;
+        }
+        #e2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 15px;
+            position: relative;
+            top: -370px;
+            left: 20px;
+        }
+        #e3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 18px;
+            position: relative;
+            top: -280px;
+            left: 25px;
+            border: 1px solid white;
+            width: 280px;
+            height: 40px;
+            text-align: center;
+            padding-top: 15px;
+
+        }
+        #e4{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 12px;
+            position: relative;
+            top: -330px;
+            left: 20px;
+        }
+        #e7{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 18px;
+            position: relative;
+            top: -330px;
+            left: 20px;
+            border: 1px solid white;
+            width: 280px;
+            height: 40px;
+            text-align: center;
+            padding-top: 15px;
+        }
+        
+        .fo{
+            display: flex;
+            background-color: black;
+        }
+        .f1{
+            color: #ffffff;
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+        }
+        .f5{
+            color: #ffffff;
+            display: flex;
+            justify-content: space-evenly;
+            width: 30%;
+            margin-left: 50%;
+        }
+        .t{
+            margin: 20px;
+        }
+        .f6{
+            background-color: #000000;
+            text-align: center;
+            padding-right: 10%;
+            padding-left: 10%;
+            color: white;
+            display: flex;
+        }
+        .f61{
+            font-family: cursive;
+            
+            margin-left: 5%;
+        }
+        li{
+            list-style-type: none;
+            text-align: left;
+            margin-top: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #8a8989;
+        }
+        
+        .line7{
+            margin-top: 10px; 
+            size: 2px;
+            color: #ffffff;
+        }
+        .lt1{
+            padding-left: 10%;
+            color: #ffffff;
+        }
+        .fot{
+            color: #ffffff;
+            width: 40%;
+            
+            font-size: large;
+        }
+        .fot1{
+            color: #ffffff;
+            width: 60%;
+            margin-left: 100px;
+        }
+        
+
+        @media screen and (max-width:400px) {
+            .nav{
+                display: flex;
+                width: auto;
+            }
+            .ul1{
+                display: none;
+                justify-content: space-evenly;
+                list-style-type: none ;
+                width: 30%;
+            }
+            .ul2{
+                position: absolute;
+                margin-top: 10px;
+                right: 10px;
+                display: none;
+                justify-content: space-evenly;
+                width: 30%;
+                list-style-type: none;            
+            }
+            .bimg{
+                width: 100%;
+                height: 600px;
+            }
+            .bt1{
+                position: absolute;
+                font-family:sans-serif;
+                top:7%;
+                left:5%;
+                font-size: xx-large ;
+                color: #f8f6f6;
+            }
+            .bt2{
+                color: white;
+                position: absolute;
+                font-size: larger;
+                top: 450px;
+                left: 5%;
+            }
+            .bb1{
+                position: absolute;
+                top: 550px;
+                left: 5%;
+                color: #000000;
+                background-color: #ffffff;
+                height: 20px;
+                padding: 5px;
+                text-align: center;
+                width: 100px;
+            }
+            .bt3{
+                width: auto;
+                color: #ffffff;
+                position: absolute;
+                top: 560px;
+                left: 170px;
+            
+            }
+            .atag{
+                color: #ffffff;
+            }
+            .sec2{
+                display: flex;
+                font-size: medium;
+                word-spacing: 2px;
+            }
+            .ss1{
+                margin-top: 15px;
+            }
+            .post1{
+                display: block;
+                padding-left: 15%;
+                padding-right: 15%;
+            }
+            .postl{
+                width: 50%;
+                height: 300px;
+            }
+            .postr{
+                position: relative;
+                margin-top: -250px;
+            }
+            .postr:hover{
+                transform:scale(1.1) ;
+            }
+            .line5{
+                margin-right: 10%;
+            }
+            .pt1{
+                font-family: 'Courier New', Courier, monospace;
+                margin-top: 0;
+                width: 200%;
+                margin-left: 0px;
+                word-spacing: 10%;
+                font-size: 150%;
+            }
+            .pt2{
+                margin-top: 160px;
+                margin-left: 10px;
+                width: 200%;
+            
+            }
+            .pob1{
+                display: flex;
+            }
+            .pt4{
+                position: absolute;
+                background-color: #000;
+                color: white;
+                padding: 5px;
+                width: fit-content;
+                height: 20px;
+                margin-top: 1px;
+                margin-left: 10px;
+
+            }
+            .pt5{
+
+                position: absolute;
+                border: 1px solid;
+                background-color: #ffffff;
+                color: #000;
+                width: fit-content;
+                height: 18px;
+                margin-top: 1px;
+                margin-left: 100px;
+            }
+            .tt{
+                position: relative;
+                margin-top: 150px;
+                margin-left: 150px;
+                font-size: 40px; 
+            }
+            .tvt{
+                margin-top: 200px;
+                padding-left: 10%;
+                padding-right: 10%;
+                display: block;
+                justify-content: space-evenly; 
+                
+            }
+            .tvl{
+                
+                background-color: whitesmoke;
+                width: 100%;
+                height: 450px;
+            }
+            .tv1{
+            
+                margin-top: 10px;
+                margin-left: 2%;
+                font-size: 250%;
+                font-family: monospace;
+            }
+            
+            .tvimg{
+                width: 100%;
+                margin-top: -100px;
+                margin-left: 5%;
+                margin-right: 25%;
+                
+                
+                
+            }
+            .tvimg:hover{
+                transform: scale(1.1);
+            }
+            .tv2{
+                margin-top: -50px;
+                margin-left: 5%;
+                font-size: x-large;
+            }
+            .tvbuy{
+                position: relative;
+                background-color: #000;
+                color: white;
+                padding: 5px;
+                width: 100px;
+                height: 20px;
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+            .tvmore{
+                position: absolute;
+                border: 1px solid;
+                background-color: #ffffff;
+                color: #000;
+                width: 100px;
+                height: 20px;
+                margin-top: -40px;
+                margin-left: 130px;
+                
+            }
+                
+            
+            .tvr{
+                background-color: whitesmoke;
+                width: 100%;
+                height: 450px;
+                
+            }
+            .ap1{
+                position: relative;
+                margin-top: 10px;
+                margin-left: 2%;
+                font-size: 250%;
+                font-family: monospace;
+            }
+            .apimg{
+                position: relative;
+                margin-top: 10px;
+                margin-left: 50px;
+            }
+            .apimg:hover{
+                transform: scale(1.1)
+            }
+            .ap2{
+                position: relative;
+                margin-top: 50px;
+                margin-left: 5%;
+                font-size: medium;
+            }
+            .ap3{
+                margin-top: -100px;
+                margin-left: 5%;
+                font-size: large;
+            }
+            .apbuy{
+                position: absolute;
+                margin-top: 50px;
+                background-color: #000;
+                color: white;
+                padding: 5px;
+                width: 100px;
+                height: 20px;
+                margin-left:30px;
+            }
+            .apmore{
+                position: absolute;
+                border: 1px solid;
+                background-color: #ffffff;
+                color: #000;
+                width: 100px;
+                height: 20px;
+                margin-top: 55px;
+                margin-left: 150px;
+            }
+            .text1{
+                font-family: monospace;
+                font-size: xx-large;
+                font-style: oblique;
+                line-height: 10px;
+                margin-left: 10px;
+            }
+            .ul3{
+                display: flex;
+                margin-top: 10px;
+                margin-left: -40px;
+                font-size: small;
+                justify-content: space-evenly;
+                list-style-type: none ;
+                width: 100%;
+            }
+            .mob{
+                margin-top: 10px;
+                display: block;
+                justify-content: space-evenly;
+                padding-left:10%;
+                padding-right: 10%;
+                
+            }
+            .mobi1:hover{
+                transform: scale(1.1);
+            }
+            .mob1{
+                background-color: whitesmoke;
+                width: 100%;
+                /* height: 450px; */
+                
+                
+            }
+            .mob1t1{
+                margin-top: -30px;
+                font-size: 25px;
+            }
+            
+            
+            .mob1buy:hover{
+                margin-top: 1px;
+                background-color: #000000;
+                color: #ffffff;
+                width: 100%;
+                height: 20px;
+                text-align: center;
+            }
+            .text2{
+                margin-top: 30px;
+                padding-bottom: 10px;
+
+                text-align: center;
+            }
+            .ban2{
+                background-color: #000;
+                width: 100%;
+                height: 500px;
+                display: block;
+            }
+            .ban2l{
+                padding: 10%;
+                
+            }
+            .ban2l:hover{
+                transform: scale(1.1);
+            }
+            .ban2r{
+                color: #ffffff;
+                margin-top: 10%;
+                font-size: 300%;
+                margin-left: 1px;
+            }
+            .ban2rt{
+                margin-top: 10px;
+
+                color: #ffffff;
+                font-size: medium;
+            }
+            .ban2b{
+                background-color: #ffffff;
+                color: #000;
+                font-size: large;
+                text-align: center;
+                width: 200px;
+                height: 30px;
+                padding: auto;
+            }
+            .ban2lt{
+                color: white;
+                font-size: large;
+                margin-top: -1px;
+                margin-left: 10px;
+            }
+            .ban2lt1{
+                margin-top: 10px;
+                color: white;
+                font-size: 200%;
+    
+            }
+            .ban2lt2{
+                margin-top: 250px;
+            }
+            .ban2lt3{
+                background-color: #ffffff;
+                color: #000;
+                font-size: large;
+                text-align: center;
+                width: 200px;  
+            }
+            .ban2i{
+                margin-top: -400px;
+                padding: 0 10% 0 10%;
+            }
+            .ban2i:hover{
+                transform: scale(1.1);
+            }
+            .ban2i3{
+                margin-top: -400px;
+                width: 80%;
+                padding-left:  10%;
+                padding-right: 10%;
+            }
+            .ban2i3:hover{
+                transform: scale(1.1);
+            }
+            .ban4t1{
+                color: white;
+                font-size: large;
+                margin-left: 1px;
+                margin-top: 1px;
+                
+            }
+            .ban4t2{
+                color: #ffffff;
+                font-size: medium;
+                margin-top: 20px;
+                margin-left: 1px;
+
+            }
+            .atag1{
+                color: #ffffff;
+                margin-top: 10px;
+                
+                margin-left: 1px;
+
+            }
+            .ban3r{
+                color: #ffffff;
+                margin-right: -20px;
+                margin-left: 10px;
+                
+
+            }
+            .text3{
+                color: #ffffff;
+                margin-top: -100px;
+                margin-left: 5%;
+                
+            }
+            .line{
+                color: #ffffff;
+                margin-top: -450px;
+                width: 100%;
+                margin-left: 1%;
+            }
+            .text4{
+                color: #ffffff;
+                margin-top: -450px;
+                margin-left: 5%;
+                font-size: x-large;
+            }
+            .text41{
+                position: absolute;
+                color: red;
+                margin-top: -50px;
+                font-size: x-large;
+                margin-left: 150px;
+            }
+            .ban4rt{
+                color: white;
+            
+            
+                font-size: xx-large;
+            }
+            .ban4{
+                margin-top: -00px;
+                padding: 10%;
+                width: 100%;
+                
+            }
+            .ban4:hover{
+                transform: scale(1.1);
+            }
+            .text5{
+                color: #ffffff;
+                margin-top: -450px;
+                font-size: 150%;
+                margin-left: 5%;
+            }
+            .text51{
+                
+                position: absolute;
+                color: #ff0000;
+                font-size:medium;
+                margin-left: 20px;
+                margin-top: -50px;
+            }
+            .hr1{
+                width: 100%;
+                size: 2px;
+                margin-top: 20px;
+                margin-left: 10px;
+                background-color: #ffffff;
+                color: red;
+            }
+            .ban5t1{
+                color: #ffffff;
+                margin-top: -350px;
+                font-size: 200%;
+            }
+            .ban5t2{
+                color: #ffffff;
+                margin-top: 200px;
+                font-size: large;
+
+            }
+            .ban5t3{
+                color: #ffffff;
+                font-size: x-large;
+            }
+            .ban5l{
+                margin-top: -250px;
+                width: 80%;
+                padding: 0 10% 10% 10%;
+            }
+            .ban5l:hover{
+                transform: scale(1.1);
+            }
+            .table{
+                margin-top: -100px;
+                background-color: #000000;
+                display: block;
+                padding: 0 5% 0 5%;
+            }
+            .table1l{
+                background-color: #1c1c1c;
+                width: 100%;
+                height: fit-content;
+
+            }
+            .t1{
+                color: #5c5c5c;
+                font-size: xx-large;
+                margin-left: 20px;
+            }
+            .t2{
+                color: #ffffff;
+                font-size: xxx-large;
+                margin-left: 20px;
+            }
+            .t3{
+                color: #ffffff;
+                font-size: large;
+                margin-top: 150px;
+                margin-left: 20px;
+            }
+            .t4{
+                color: #ffffff;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+            .table1r{
+                width: 100%;
+                margin-top: 1px;
+                height: fit-content;
+                padding-right: 10%;
+            }
+            .table2l{
+                background-color: #1c1c1c;
+                width: 100%;
+                height: fit-content;
+            }
+            .t21{
+                color: #5c5c5c;
+                font-size: x-large;
+                margin-left: 20px;
+            }
+            .t22{
+                color: #ffffff;
+                font-size: xx-large;
+                margin-left: 20px;
+
+            }
+            .t23{
+                color: white;
+                font-size: large;
+                margin-top: 100px;
+                margin-left: 20px;
+            }
+            .t24{
+                color: #ffffff;
+                margin-left: 20px;
+            }
+            .table2r{
+                width: 100%;
+                height: 100%;
+                
+            }
+            .text9{
+                background-color: #000000;
+                color: #ffffff;
+                margin-top: -5px;
+                
+            }
+            .text6{
+                color: #000000;
+                margin-left: 10%;
+            }
+            .line2{
+                color: #000000;
+                size: 2px;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .text61{
+                position: absolute;
+                color: #ff0000;
+                font-size: 100%;
+                margin-left: 250px;
+                margin-top: -40px;
+            }
+            .ban6{
+                background-color: #ffffff;
+                display: flex;
+                padding-left: 1%;
+                
+            }
+            .b6t1{
+                font-size: large;
+                margin-left: 5px;
+            }
+            .b6t2{
+                font-size: large;
+                
+                margin-left: 70px;
+            }
+            .ban7{
+                display: block;
+                padding-left: 5%;
+            }
+            .b7t1{
+                font-size: x-large;
+            }
+            .b7t2{
+                font-size: large;
+                margin-top: 50px;
+            }
+            .b7t3{
+                font-size: xx-small;
+                color: #000;
+            }
+            .ban7i{
+                margin-top: 10px;
+            }
+            .table3{
+                display: block;
+                margin-top: 1px;
+                padding: 5% 5% 0 5%;
+                justify-content: space-evenly;
+            }
+            .t31{
+                padding-right: 10%;
+                width: 100%;
+            }
+            .t3t1{
+                width: 100%;
+                font-size: xx-large;
+            }
+            .t3t2{
+                color: #000000;
+            }
+            .t32{
+                margin-top: 10px;
+                padding-right: 5%;
+                width: 100%;
+            }
+            .t33{
+                margin-top: 10px;
+                padding-right: 5%;
+                width: 100%;
+            }
+            .t3t3{
+                width: 75%;
+            }
+            .line6{
+                padding-left: 1%;
+            }
+            .t40{
+                display: block;
+                
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .t41{
+            background-color: #d1cdcd; 
+            }
+            .t4t1{
+                font-size: large;
+                color: #8a8989;
+                padding-left: 2%;
+            }
+            .t4t2{
+                font-size: xx-large;
+                padding-left: 2%;
+            }
+            .t4t3{
+                font-size: large;
+                margin-top: 100px;
+                padding-left: 2%;
+            }
+            .t4t4{
+                color: black;
+                padding-left: 2%;
+            }
+            .t43{
+                background-color: #d1cdcd;
+                margin-left: 2%;
+            }
+            .d1,.d2,.d3{
+                display: none;
+                border: 2px solid rgb(234,234,234);
+                border-collapse: collapse; 
+            }
+            .d1{
+                margin-top: 1%;
+                margin-left: 1%;
+                
+                width: 80%;
+                height: 70px;
+            }
+            .d3{
+                padding-left: 2px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+            }
+            #a97{
+                background-color: black;
+                width: 100%;
+                height: 900px;
+                
+                
+                
+            }
+            #a98{
+                position: relative;
+                top: 40px;
+                left: 5%;
+                color: white;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+            }
+            #a99{
+                position: relative;
+                top: 30px;
+                
+                color: rgba(77, 77, 77, 0.281);
+                width: 90%;
+            }
+            .text52{
+                color: #ff0000;
+                margin-left: 40%;
+                margin-top: -40px;
+            }
+            #a100{
+                display: block;
+                margin-left: 1%;
+                width: 80%;
+                margin-top: 60px;
+            }
+            .a101{
+                margin-top: -150px;
+                margin-left: 1%;
+            }
+            #e1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: medium;
+                position: relative;
+                top: -150px;
+                left: 2px;
+            }
+            #e2{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: medium;
+                position: relative;
+                top: -170px;
+                left: 1px;
+            }
+            #e3{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: 10px;
+                position: relative;
+                top: -180px;
+                left: 2px;
+                border: 1px solid white;
+                width: 80%;
+                height: 40px;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #e4{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: large;
+                width: 100%;
+                position: relative;
+                top: -200px;
+                left: 2px;
+            }
+            #e7{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: 18px;
+                position: relative;
+                top: -50px;
+                left: 2px;
+                border: 1px solid white;
+                width: 80%;
+                height: 40px;
+                text-align: center;
+                padding-top: 1px;
+            }
+           #e5{
+                color: #ffffff;
+                margin-top: -210px;
+           }
+            
+            
+            .f6{
+                
+                background-color: #000000;
+                text-align: center;
+                padding-right: 10%;
+                padding-left: 10%;
+                color: white;
+                display: block;
+            }
+            .f61{
+                font-family: cursive;
+                
+                margin-left: 5%;
+            }
+            .fo{
+                margin-top: -15px;
+                display: block;
+                /* background-color: black; */
+            }
+            .f1{
+                background-color: #000;
+                color: #ffffff;
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-evenly; 
+                width: 80%;
+            }
+            .f5{
+                color: #ffffff;
+                display: flex;
+                justify-content: space-evenly;
+                width: 80%;
+                margin-left: 0%;
+            }
+            .t{
+                color: #ffffff;
+                margin: 20px;
+            }
+            .f6{
+                background-color: #000000;
+                text-align: center;
+                padding-right: 10%;
+                padding-left: 10%;
+                color: white;
+                display: block;
+            }
+            .f61{
+                font-family: cursive;
+                margin-top: 1px;
+                margin-left: 5%;
+            }
+            li{
+                list-style-type: none;
+                text-align: left;
+                margin-top: 1px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: #8a8989;
+            }
+            
+            .line7{
+                margin-top: 1px; 
+                size: 2px;
+                color: #ffffff;
+            }
+            .lt1{
+                margin-top: 40%;
+                padding-left: 1%;
+                color: #ffffff;
+            }
+            .fot{
+                color: #ffffff;
+                width: 100%;
+                margin-top: 10px;
+                font-size: large;
+            }
+            .fot1{
+                color: #ffffff;
+                width: 100%;
+                margin-left: 10px;
+            }
+            
+            
+        }
+
+       
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <img src="img/logo.png" alt="" width="10%">
+        <ul class="ul1">
+                <a href="secand.html"><li>Phone</li></a>
+                <li>Tv & Display</li>
+                <li>Audio & Watch </li>
+                <li>Tablet</li>
+                <li>Accessories</li>
+                <li>Offers</li>
+            </ul>
+            
+        <ul class="ul2">
+                <a href="thrid.html"><li>Store</li></a>
+                <li>OneTopia</li>
+                <li>OnePlus Featuring</li>
+                <li>Community</li>
+                <li>Support</li>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </ul>
+    </nav>
+    
+
+    <section class="fi1">
+        <img class="bimg" src="img/ban1.jpg" alt="" width="100% " height="630px">
+        <div class="bt1">
+            OnePlus 11R <sup>5G</sup>
+        </div>
+        <div class="bt2">
+            From €39,999 <br> Save additional up to 23 000 with exchange <br> bonus on select devices.
+        </div>
+        <div class="bb1">
+             Buy Now
+        </div>
+        <div class="bt3">
+
+            <a href="bt3" class="atag"  >Learn More 
+            </a>
+        </div>
+    </section>
+
+
+    <section class="sec2">
+            <img class="ss1" src="img/icici.jpg" alt="" width="10%" height="5%">
+            <p>Upto 9 months No Cost EMI on Bajaj Finance</p>
+    </section>
+    <div class="logo">
+        <img src="img/logo.svg" alt="" >
+    </div>
+
+    <section class="post1">
+        <div class="postl">
+            <h1 class="pt1">
+                OnePlus 11 5G
+            </h1>
+            <p class="pt2">Save additional up to ₹8 000 with exchange bonus on <br> select devices <br>
+                           From Rs.54 999 <sup>*</sup> Incl bank discount</p>
+            <div class="pob1">
+                <p class="pt4">Buy Now</p>
+            <p class="pt5">Learn More</p>
+            </div>
+        </div>
+        <div class="postr">
+            <img  src="img/post1.png" alt="" width="100%" >
+        </div>
+    </section>
+
+    <section class="tvt">
+        <div class="tvl">
+            <h1 class="tv1">OnePlus TV <br> 50 Y1s Pro</h1>
+            <img class="tvimg" src="img/tv1.png" alt="" width="50%">
+            <h6 class="tv2">At Rs.34 999 <sup>*</sup> <br>
+            <sup>*</sup>Incl. Bank Discount</h6>
+            <p class="tvbuy">Buy Now</p>
+            <p class="tvmore">Learn More</p>
+        </div>
+        <div class="tvr">
+            <h1 class="ap1">OnePlus <br>Buds Pro ... </h1>
+            <img class="apimg" src="img/ap.webp" alt="" width="50%">
+            <h4 class="ap2">Get a free wireless charger on <br>Buds Pro 2</h4>
+            <h3 class="ap3">From Rs.8 999 <sup>*</sup>lncl. Bank <br>discount</h3>
+            <p class="apbuy">Buy Now</p>
+            <p class="apmore">Learn More</p>
+        </div>
+    </section>
+    <div class="text1">
+        <p>This Week’s Hot Picks</p>
+        <hr class="line5">
+    </div>
+    <section>
+        <ul class="ul3">
+            <li>Highlights</li>
+            <li>Phone</li>
+            <li>TV & Display</li>
+            <li>Audio</li>
+            <li>Wearables</li>
+            <li>Accessories</li>
+        </ul>
+        <hr class="hr1">
+    </section>
+    <section class="mob">
+        <div class="mob1">
+            <img class="mobi1" src="img/mob1.png" alt="" width="100%">
+            <p class="mob1t1">OnePlus 11R 5G</p>
+            <p >Save additional up to ₹3000 with exchange bonus <br>on select devices.</p>
+            <p class="mob1buy">From Rs.39 999</p>
+
+        </div>
+        <div class="mob1">
+            <img class="mobi1" src="img/mob2.png" alt="" width="100%">
+            <p class="mob1t1">OnePlus Nord CE 3 Lite 5G</p>
+            Get 6 months of Spotify Premium at no extra cost.
+            
+            <p class="mob1buy">From Rs.19 999</p>
+
+        </div>
+        <div class="mob1">
+            <img class="mobi1" src="img/mob3.png" alt="" width="100%">
+            <p class="mob1t1">OnePlus TV Y Series 32 | 43 <br> Y1S Edge</p>
+            <p>Up to ₹1500 instant bank discount; Save extra ₹1000 <br> by using the RCC linked device benefit.</p>
+            <p class="mob1buy">From Rs.13 999</p>
+
+        </div>
+        <div class="mob1">
+            <img class="mobi1" src="img/mob4.png" alt="" width="100%">
+            <p class="mob1t1">OnePlus Pad</p>
+            <p>Save ₹2000 with bank discount. No Cost EMI up to <br> 12 months.</p>
+            <p class="mob1buy">From Rs.37 999</p>
+
+        </div>
+    </section>
+    <div class="text2">View all products ></div>
+    <section class="ban2">
+            <div class="ban2l">
+                <img src="img/ban2.webp" alt="" width="100%">
+            </div>
+            <div class="ban2r">August RCC <br> Members' Day
+            <p class="ban2rt">Get a chance to win OnePlus Buds Pro2 and much more</p>
+            <p class="ban2b">Praticipate Now</p>
+        </div>
+    </section>
+    <section class="ban2">
+        <div class="ban2lt">One For All
+        <p class="ban2lt1">OnePlus Ensemble</p>
+        <p class="ban2lt2">Seamlessly connect all the OnePlus products to one another for a smart and smooth experience.</p>
+        <p>At ₹109 997* Incl. Bank Discount</p>
+        <p class="ban2lt3">Buy Now</p>
+
+
+    </div>
+        <div class="ban2i">
+            <img src="img/ban3.webp" alt="" width="100%">
+        </div>
+    </section>
+    <section class="ban2">
+        <p class="text3">OnePlus Featuring</p>
+        
+    </section>
+    
+    <section class="ban2">
+        <hr class="line" width="100%" color="fffff" size="2">
+    </section>
+    <section class="ban2">
+        <p class="text4">A new platform that strives to 'Empower the quality of your <br> digital life'. <p class="text41"> Discover more <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </p></p>
+    </section>
+    <section class="ban2">
+        <div class="ban2i3">
+            <img  src="img/ban4.webp" alt="" width="100%">
+
+        </div>
+        <div class="ban3r">Rewrite the Rules
+            <p class="ban4t1">Keyboard 81 Pro</p>
+            <p class="ban4t2">Power by OnePlus Design | Co-Created Switches | The First Bouncy but Durable Keycap <br>
+                Sale is now live! Earn 2X RedCoins & Save additional 5% off with RedCoins.</p>
+            <a href="" class="atag1">Buy Now</a>
+            
+        </div>
+    </section>
+    <section class="ban2">
+        <p class="text3">OneTopia</p>
+    </section>
+    <section class="ban2">
+        <hr class="line" width="100%" color="fffff" size="2">
+    </section>
+    <section class="ban2">
+        <p class="text5">Relentless innovation defines who we are. <br>
+            OnePlus inspires through innovation. <p class="text52"> Never Settle <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </p></p>
+    </section>
+
+    <section class="ban2">
+        <div class="ban2lt">
+        <p class="ban5t1">Evolve your digital <br> life</p>
+        <p class="ban5t2">Discover how OnePlus empowers you with burdenless technology.</p>
+        <a href="" class ="ban5t3">learn more</a>
+
+
+    </div>
+        <div class="ban5l">
+            <img src="img/ban5.webp" alt="" width="100%" >
+        </div>
+    </section>
+    
+    <section class="table">
+        <div class="table1l">
+            <p class="t1">OxygenOS 13</p>
+            <p class="t2">Inspired by nature</p>
+            <p class="t3">OxygenOS 13 welcomes you with a visually <br> refreshed and bold design. Every intuitive <br> element, every streamlined step, is faster, <br> smoother, and burdenless.</p>
+            <a href="" class ="t4">learn more</a>
+        </div>
+        <div class="table1r">
+            <img src="img/table1.webp" alt="" width="100%">
+        </div>
+
+        <div class="table2l">
+            <p class="t21">Capture Every Horizon</p>
+            <p class="t22">2023 OnePlus <br> Photography <br> Awards Winners</p>
+            <p class="t23">The 2023 OnePlus Photography Awards is <br> dedicated to honoring everyone to use their <br> phones to create their own works, to <br> capture wonderful moments, and to tell the <br> stories behind the lens.</p>
+            <a href="" class ="t24">learn more</a>
+        </div>
+        <div class="table2r">
+            <img src="img/table2.webp" alt="" width="100%">
+        </div>
+    </section>
+    
+    <section class="ban2">
+        <p class="text9">Red Cable Club</p>
+        
+    </section>
+    
+    <section class="ban2">
+        <hr class="line" width="100%" size="2">
+    </section>
+    <section class="ban2">
+        <p class="text4">Unlock exclusive benefits, early access to products,<br> and unique experiences. <p class="text61"> Join the Club <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </p></p>
+    </section>
+    <section class="ban2">
+        <div class="ban2i3">
+            <img  src="img/ban6.jpg" alt="" width="100%">
+
+        </div>
+        <div class="ban3r">Rewrite the Rules
+            <p class="ban4t1">One community,<br> limitless passion</p>
+            <p class="ban4t2">United by one common belief - 'Great happens when we're all wired <br> together'.</p>
+            <a href="" class="atag1">Join Now</a>
+            
+        </div>
+    </section>
+    
+    <section class="ban6">
+        <p class="b6t1">Currently in Community  </p>
+        <p class="b6t2"> Join us <i class="fa fa-plus" aria-hidden="true"></i>
+        </p>
+        
+        
+    </section>
+    
+    <section class="line6" >
+        <hr width="100%" size="2">
+    </section>
+    <section class="ban7">
+        <div class="b7t1">The Power of Community
+        
+        <p class="b7t2">Our biggest community-driven project - Power of Community, has the <br> ambitious goal of bringing the concept of co-creation to life.</p>
+        
+        <a href="" class ="b7t3">learn more</a>
+
+
+    </div>
+        <div class="ban7i">
+            <img src="img/ban7.webp" alt="" width="100%">
+        </div>
+    </section>
+    <section class="table3">
+        <div class="table31">
+            <img class="t31" src="img/t1.webp" alt="" width="100%">
+            <h1 class="t3t1">Shot on OnePlus November 2022 - Night...</h1>
+            <p>Welcome to November as we usher in the Fall season!</p>
+            <a href="" class="t3t2">Read more</a>
+        </div>
+        <div class="table32">
+            <img class="t32" src="img/t2.webp" alt="" width="100%">
+            <h1 class="t3t1">All about OxygenOS – October 2022</h1>
+            <p class="t3t3">We are very thrilled to share with you that the OxygenOS FAQs are back!</p>
+            <a href="" class="t3t2">Read more</a>
+        </div>
+        <div class="table33">
+            <img class="t33" src="img/t3.webp" alt="" width="100%">
+            <h1 class="t3t1">[Contest] OnePlus Wiki - Started By Us, Curated By...</h1>
+            <p class="t3t3">Welcome to the OnePlus Wiki, a never-ending OnePlus Museum.</p>
+            <a href="" class="t3t2">Read more</a>
+        </div>
+    </section>
+    <section class="ban6">
+        <p class="b6t1">Support</p>
+        
+        
+        
+    </section>
+    
+    <section class="line6" >
+        <hr width="100%" size="2">
+    </section>
+
+    <section class="t40">
+        <div class="t41">
+            <p class="t4t1">One-on-One with OnePlus</p>
+            <p class="t4t2">Your personal helpdesk.</p>
+            <p class="t4t3">From finding the perfect phone to quickly resolving queries, we're always ready to help.</p>
+            <a href="" class ="t4t4">Let’s chat
+            </a>
+        </div>
+        <div class="t42">
+            <img src="img/t42.jpg" alt="" width="100%">
+        </div>
+
+        <div class="t43">
+            <p class="t4t1">OnePlus Service Center</p>
+            <p class="t4t2">Our technical team is here to help</p>
+            <p class="t4t3">We have over 250 authorized service centers across India. All the fully-trained OnePlus staff are at your service.</p>
+            <a href="" class ="t4t4">Find nearest service center</a>
+        </div>
+        <div class="t44">
+            <img src="img/t44.webp" alt="" width="100%">
+        </div>
+    </section>
+    <table class="d1">
+        <tr class="d2">
+            <td class="d3">Product help <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+            <td class="d3">Shopping FAQ <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+            <td class="d3">Troubleshooting <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+            <td class="d3">Protection plan <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+        </tr>
+    </table>
+    <div id="a97">
+        <p id="a98">Stay connected</p>
+        <hr id="a99">
+        <div id="a100">
+            <div>
+                <img  src="img/f1.webp" width="100%"
+                    height="350px" alt>
+                <pre id="e1">Shop With Exclusive 
+                            Benefits</pre>
+                <pre id="e2">Download OnePlus store app on Google 
+                            Play</pre>
+                <pre id="e3"><i class="fa fa-play" aria-hidden="true"></i>   Google play</pre>
+            </div>
+            <div class="a101">
+                <img src="img/f2.webp" width="100%"
+                    height="330px" alt>
+                <pre id="e4">Always be the first to 
+                            know.</pre>
+
+                <pre id="e5">Sign up for our newsletter!</pre>
+                <p id="e6">Subscribe to receive news, promotions <br> and recommendations about OnePlus products and services from OnePlus, its agencies and partners.</p>
+                <p id="e7">Subscribe Now</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="f6">
+        <div class="f61"> <strong>Phones</strong>
+            <ul>
+                <li>OnePlus 11 5G</li>
+                <li>OnePlus 11R 5G</li>
+                <li>OnePlus Nord 3 5G</li>
+                <li>OnePlus Nord CE3 5G</li>
+                <li>OnePlus Nord CE 3 Lite 5G</li>
+                <li>OnePlus 10R 5G</li>
+                <li>OnePlus 10 Pro 5G</li>
+                <li>OnePlus Nord 2T 5G</li>
+                <li>OnePlus Nord CE 2 Lite 5G</li>
+                <li>OnePlus 10T 5G</li>
+                <li>OnePlus 9 5G</li>
+                <li>OnePlus 9R 5G</li>
+            </ul>
+            
+
+
+    </div>
+    <div class="f61"><strong>Store</strong>
+    <ul class="f62">
+        <li>Tablet</li>
+        <li>TV & Display</li>
+            <li>Audio</li>
+            <li>Wearables</li>
+            <li>Cases & Protection</li>
+            <li>Power & Cables</li>
+            <li>Bundles</li>
+            <li>Gear</li>
+    </ul>
+    </div>
+    <div class="f61">Support
+        <ul class="f62">
+            <li>Protection Plan</li>
+            <li>Shopping FAQs</li>
+            <li>User Manuals</li>
+            <li>Service Centers</li>
+            <li>Affiliate Program</li>
+            <li>Repair Service</li>
+            <li>Repair Pricing</li>
+            <li>TV Spare Part Price</li>
+            <li>Software Update</li>
+        </ul>
+    </div>
+    <div class="f61">Explore
+        <ul class="f62">
+            <li>About OnePlus </li>
+            <li>Community</li>
+            <li>Find a store</li>
+            <li>OnePlus Store app</li>
+            <li>OxygenOS</li>
+            <li>Press</li>
+            <li>Blog</li>
+            <li>Careers</li>
+            <li>Campus Opportunities</li>
+        </ul>
+    </div>
+    <div class="f61">Programs
+        <ul class="f62">
+            <li>Exchange Program</li>
+            <li>Red Cable Club</li>
+        </ul>
+    </div>
+</section>
+<section class="fo">
+    <div class="f1">
+        <p><i class="fa fa-credit-card" aria-hidden="true"></i> Credit/Debit Card</p>
+        <p><i class="fa fa-university" aria-hidden="true"></i> NetBanking</p>
+        <p><i class="fa fa-circle-o-notch" aria-hidden="true"></i>EMI</p>
+        <p><i class="fa fa-google-wallet" aria-hidden="true"></i>Wallet</p>
+    </div>
+    <div class="f5">
+        <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+        <p><i class="fa fa-twitter" aria-hidden="true"></i></p>
+        <p><i class="fa fa-instagram" aria-hidden="true"></i></p>
+        <p>Get Support From OnePlus<i class="fa fa-chevron-down" aria-hidden="true"></i></p>
+    </div>
+</section>
+<section class="fo">
+    <hr style="color: #fdfcfc; background-color: #ffffff;width: 100%;" size="2px">
+</section>
+<section class="fo">
+    <div class="fot">Privacy Policy|</div>
+    <div class="fot">User Agreement|</div>
+    <div class="fot">
+        Terms of Sales|</div>
+    <div class="fot">E-waste management|</div>
+    <div class="fot">
+        Security Feedback|</div>
+    <div class="fot">
+        © 2013 - 2023 OnePlus. All Rights Reserved.</div>
+    <div class="fot">
+        <img src="img/lastim.png" alt="" width="50%">
+    </div>
+    <div class="fot1">India (English)<i class="fa fa-globe" aria-hidden="true"></i></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .nav{
+            display: flex;
+            width: auto;
+        }
+        .ul1{
+            display: flex;
+            margin-top: 30px;
+            justify-content: space-evenly;
+            list-style-type: none ;
+            width: 30%;
+        }
+        a{
+            text-decoration: none;
+        }
+        .ul2{
+            position: absolute;
+            margin-top: 30px;
+            right: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 30%;
+            list-style-type: none;            
+        }
+        .section1{
+            display: flex;
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 80%;
+        }
+        .sd1{
+            width: 40%;
+            font-size: xxx-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .sd2{
+            margin-left: 10%;
+            display: flex;
+            width: 70%;
+            font-size: larger;
+            text-align: center;
+        }
+        .section2{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .s2t1{
+            position: absolute;
+            margin-top: -560px;
+            font-size: large;
+            margin-left: 2%;
+        }
+        .s2t2{
+            position: absolute;
+            margin-top: -530px;
+            font-size: xx-large;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 2%;
+        }
+        .s2t3{
+            position: absolute;
+            margin-top: -480px;
+            font-size: large;
+            margin-left: 2%;
+        }
+        .s2t4{
+            /* display: none; */
+            position: absolute;
+            margin-left: 2%;
+            margin-top: -60px;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .s2t5{
+            /* display: none;  */
+            position: absolute;
+            margin-top: -60px;
+            margin-left: 150px;
+            color: #000000;
+        }
+        .s2t5:hover{
+            position: absolute;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            color: #000000;
+        }
+        .s2t4:hover{
+            position: absolute;
+            background-color: black;
+            margin-left: 2%;
+            margin-top: -60px;
+            color: white;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+            width: 5%;
+            height: 6%;
+            text-align: center;
+            font-size: large;
+            margin-left: 2%;
+        }
+        .s2t6{
+            margin-top: -5px;
+            background-color: #cdcbcb;
+            font-size: small;
+        }
+        .section3{
+            display: flex;
+            width: 100%;
+        }
+        .s3d1{
+            margin-left: 10%;
+            margin-right: 2%;
+        }
+        .s3d2{
+            
+            margin-right: 10%;
+        }
+        .s3t1{
+            position: absolute;
+            margin-top: -410px;
+            margin-left: 2%;
+            font-size: 50px;
+        }
+        .s3t2{
+            position: absolute;
+            margin-top: -340px;
+            margin-left: 2%;
+            /* font-size: 50px; */
+        }
+        .s3t3{
+            position: absolute;
+            margin-top: -50px;
+            margin-left: 2%;
+        }
+        .s3t3:hover{
+            position: absolute;
+            background-color: black;
+            text-align: center;
+            width: 5%;
+            height: 6%;
+            color: white;
+            margin-top: -50px;
+            margin-left: 2%;
+            font-size: 20px;
+        }
+        .s3t5{
+            position: absolute;
+            margin-top: 375px;
+            color: #000;
+            margin-left: -600px;
+        }
+        .s3t11{
+            position: absolute;
+            margin-top: -410px;
+            margin-left: 2%;
+            font-size: larger;
+            color: #908e8e;
+            line-height: 2%;
+        }
+        .s3t22{
+            position: absolute;
+            margin-top: -390px;
+            margin-left: 2%;
+            font-size: 50px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .s3t33{
+            position: absolute;
+            margin-top: -320px;
+            margin-left: 2%;
+        }
+        .s3t44{
+            position: absolute;
+            margin-top: -50px;
+            margin-left: 2%;
+        }
+        .s3t44:hover{
+            background-color: #000;
+            text-align: center;
+            width: 5%;
+            height: 6%;
+            color: white;
+            margin-top: -50px;
+            margin-left: 2%;
+            font-size: 20px;
+        }
+        .s3t55{
+            position: absolute;
+            margin-top: 375px;
+            margin-left: -600px;
+            color: black;
+
+        }
+        .s3t6{
+            margin-top: -4px;
+            font-size: medium;
+            background-color:#cdcbcb;
+        }
+        .tt1{
+            margin-left: 10%;
+            margin-top: 2%;
+            font-size: 50px;
+        }
+        .section4{
+            margin-top: 10px;
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 80%;
+            display: flex;
+        }
+        .s4d1{
+            width: 100%;
+            margin-left: 2%;
+            background-color: white;
+
+        }
+        .s4t1{
+            position: absolute;
+            margin-top: -480px;
+            margin-left: .5%;
+            width: 100%;
+            font-size: smaller;
+        }
+        .s4t2{
+            margin-top: -460px;
+            margin-left: 2%;
+            font-size: 50px;
+        }
+        .s4t3{
+            margin-top: 300px;
+            margin-left: 2%;
+        }
+        .s4d2{
+            width: 100%;
+            height: 490px;
+            background-color: #f4f2f2;
+            margin-left: 2%;
+        }
+        .s4t11{
+            margin-left: 2%;
+            font-size: 40px;
+        }
+        .s4t22{
+            margin-top: -30px;
+            margin-left: 2%;
+        }
+        .s4t33{
+            position: absolute;
+            margin-top: -250px;
+            margin-left: 150px;
+            background-color: #f4f2f2;
+            color: #000;
+            border: #ffffff 2px solid;
+            border-radius: 30%;
+            width: fit-content;
+        }
+        .s4t22:hover{
+            background-color: #000000;
+            color: white;
+            margin-left: 2%;
+            margin-right: 2%;
+            height: 6%;
+            text-align: center;
+            padding-top: 2%;
+        }
+        .off{
+            color: red;
+            margin-top: -70px;
+        }
+        .section5{
+            display: flex;
+            margin-top: 30px;
+            width: 100%;
+            height: 450px;
+            background-color: #000000;
+        }
+        .s5d1{
+            color: #ffffff;
+            width: 30%;
+        }
+        .s5t1{
+            font-size: 50px;
+            margin-left: 20%;
+        }
+        .s5t2{
+            margin-top: 200px;
+            font-size: 15px;
+            margin-left: 20%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .s5t3{
+            margin-top: 10px;
+            font-size: 15px;
+            margin-left: 20%;
+            color: #ffffff;
+        }
+        .s5d2{
+            width: 60%;
+            display: flex;
+        }
+        .s5dt1{
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .s5dt2{
+            background-color: #262626;
+            width: 50%;
+            margin-left: 5%;
+            margin-top: 5%;
+            height: 38%;
+        }
+        .s5t4{
+            color: #ffffff;
+            font-size: 25px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        }
+        .s5t5{
+            color: #ffffff;
+        }
+        #plus{
+            color: red;
+        }
+        .section6{
+            display: flex;
+        }
+        .s6d1{
+           margin-left: 5%; 
+           margin-top: 3%;
+           font-size: 50px;
+           color: #6b6969;
+           width: 50%;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        }
+        .s6d2{
+            margin-left: 540px;
+            font-size: 20px;
+            color: #6b6969;
+            margin-top: 4%;
+        }
+        .line{
+            margin-left: 5%;
+            margin-top: 1%;
+            margin-right: 10%;
+        }
+        .section7{
+            display: flex;
+            margin-left: 5%;
+            margin-right: 10%;
+        }
+        .s7d1{
+            background-color:#f4f2f2 ;
+            margin-left: 2%;
+            height: 350px;
+        }
+        .s7t1{
+            font-size: 30px;
+        }
+        .s7t2{
+            margin-top: 80px;
+        }
+        .s7t3:hover{
+            background-color: #000000;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+            height: 7%;
+        }
+        .section8{
+            display: flex;
+        }
+        .s8d1{
+           margin-left: 5%; 
+           margin-top: 15%;
+           font-size: 50px;
+           color: #6b6969;
+           width: 50%;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        }
+        .s8d2{
+            margin-left: 540px;
+            font-size: 20px;
+            color: #6b6969;
+            margin-top: 16%;
+        }
+        .section9{
+            display: flex;
+            margin-top: 5%;
+            margin-left: 5%;
+            width: 85%;
+            margin-right: 10%;
+        }
+        .s9d1{
+            background-color:#f4f2f2 ;
+            margin-left: 2%;
+            height: 350px;
+        }
+        .s9t1{
+            font-size: 30px;
+        }
+        .s9t2{
+            margin-top: 30px;
+        }
+        .s9t3:hover{
+            background-color: #000000;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+            height: 7%;
+        }
+        .s9t4{
+            margin-top: 60px;
+        }
+        .s9t4:hover{
+            background-color: #000000;
+            margin-top: 60px;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+            height: 7%;
+        }
+        .section10{
+            display: flex;
+        }
+        .s10d1{
+           margin-left: 5%; 
+           margin-top: 15%;
+           font-size: 50px;
+           color: #6b6969;
+           width: 50%;
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        }
+        .s10d2{
+            margin-left: 540px;
+            font-size: 20px;
+            color: #6b6969;
+            margin-top: 16%;
+        }
+        .section11{
+            display: flex;
+            margin-top: 5%;
+            margin-left: 5%;
+            width: 85%;
+            margin-right: 10%;
+        }
+        .s11d1{
+            background-color:#f4f2f2 ;
+            margin-top: 1%;
+            margin-left: 2%;
+            height: 450px;
+        }
+        .s11t1{
+            font-size: 30px;
+            margin-top: 55%;
+        }
+        .s11t5{
+            font-size: 30px;
+            /* margin-top: 40%; */
+        }
+        .s11t6{
+            font-size: 30px;
+            margin-top: 30%;
+        }
+        .s11t2{
+            margin-top: 30px;
+        }
+        .s11t3:hover{
+            background-color: #000000;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+            height: 7%;
+        }
+        .s11t4{
+            margin-top: 60px;
+        }
+        .s11t4:hover{
+            background-color: #000000;
+            margin-top: 60px;
+            color: #ffffff;
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+            height: 7%;
+        }
+        .ban6{
+            background-color: #ffffff;
+            display: flex;
+            margin-top: 10%;
+            padding-left: 5%;
+            margin-left: 5%;
+
+        }
+        .b6t1{
+            font-size: large;
+            margin-left: 5px;
+        }
+        .line6{
+            padding-left: 5%;
+        }
+        .t40{
+            display: flex;
+            
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .t41{
+           background-color: #d1cdcd; 
+        }
+        .t4t1{
+            font-size: large;
+            color: #8a8989;
+            padding-left: 2%;
+        }
+        .t4t2{
+            font-size: xx-large;
+            padding-left: 2%;
+        }
+        .t4t3{
+            font-size: large;
+            margin-top: 250px;
+            padding-left: 2%;
+        }
+        .t4t4{
+            color: black;
+            padding-left: 2%;
+        }
+        .t43{
+            background-color: #d1cdcd;
+            margin-left: 2%;
+        }
+        .d1,.d2,.d3{
+            border: 2px solid rgb(234,234,234);
+            border-collapse: collapse;
+
+        }
+        .d1{
+            margin-top: 5%;
+            margin-left: 10%;
+            right: 10%;
+            width: 80%;
+            height: 70px;
+        }
+        .d3{
+            padding-left: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        #a97{
+            background-color: black;
+            width: 100%;
+            height: 470px;
+            position: relative;
+            
+            
+        }
+        #a98{
+            position: relative;
+            top: 40px;
+            left: 5%;
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        #a99{
+            position: relative;
+            top: 30px;
+            
+            color: rgba(77, 77, 77, 0.281);
+            width: 90%;
+        }
+        #a100{
+            display: flex;
+            margin-left: 10%;
+            margin-right: 80px;
+            margin-top: 60px;
+        }
+        .a101{
+            margin-left: 10%;
+        }
+        #e1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 30px;
+            position: relative;
+            top: -350px;
+            left: 20px;
+        }
+        #e2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 15px;
+            position: relative;
+            top: -370px;
+            left: 20px;
+        }
+        #e3{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 18px;
+            position: relative;
+            top: -280px;
+            left: 25px;
+            border: 1px solid white;
+            width: 280px;
+            height: 40px;
+            text-align: center;
+            padding-top: 15px;
+
+        }
+        #e4{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 12px;
+            position: relative;
+            top: -330px;
+            left: 20px;
+        }
+        #e7{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            font-size: 18px;
+            position: relative;
+            top: -330px;
+            left: 20px;
+            border: 1px solid white;
+            width: 280px;
+            height: 40px;
+            text-align: center;
+            padding-top: 15px;
+        }
+        
+        .fo{
+            display: flex;
+            background-color: black;
+        }
+        .f1{
+            color: #ffffff;
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+        }
+        .f5{
+            color: #ffffff;
+            display: flex;
+            justify-content: space-evenly;
+            width: 30%;
+            margin-left: 50%;
+        }
+        .t{
+            margin: 20px;
+        }
+        .f6{
+            background-color: #000000;
+            text-align: center;
+            padding-right: 10%;
+            padding-left: 10%;
+            color: white;
+            display: flex;
+        }
+        .f61{
+            font-family: cursive;
+            
+            margin-left: 5%;
+        }
+        li{
+            list-style-type: none;
+            text-align: left;
+            margin-top: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #8a8989;
+        }
+        
+        .line7{
+            margin-top: 10px; 
+            size: 2px;
+            color: #ffffff;
+        }
+        .lt1{
+            padding-left: 10%;
+            color: #ffffff;
+        }
+        .fot{
+            color: #ffffff;
+            width: 40%;
+            
+            font-size: large;
+        }
+        .fot1{
+            color: #ffffff;
+            width: 60%;
+            margin-left: 100px;
+        }
+        @media screen and (max-width:400px) {
+            .nav{
+            display: flex;
+            width: auto;
+            }
+            .ul1{
+                display: none;
+                margin-top: 30px;
+                justify-content: space-evenly;
+                list-style-type: none ;
+                width: 30%;
+            }
+            .ul2{
+                position: absolute;
+                margin-top: 30px;
+                right: 10px;
+                display: none;
+                justify-content: space-evenly;
+                width: 30%;
+                list-style-type: none;            
+            }
+            .section1{
+                display: block;
+                margin-left: 10%;
+                margin-right: 10%;
+                width: 80%;
+            }
+            .sd1{
+                width: 100%;
+                font-size: 30px;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .sd2{
+                margin-left: 10%;
+                display: block;
+                width: 70%;
+                font-size: larger;
+                text-align: center;
+            }
+            .section2{
+                margin-top: 20%;
+                margin-left: 0%; 
+                width: 100%;
+                height: 300px;
+                /* margin-right: 10%; */
+            }
+            .ban1{
+                width: 100%;
+                height: 300px;
+            }
+            .s2t1{
+                position:relative;
+                margin-top:-300px;
+                font-size: 10px;
+                margin-left: 2%;
+            }
+            .s2t2{
+                position: relative;
+                margin-top: 0px;
+                font-size: 20px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-left: 2%;
+            }
+            .s2t3{
+                position:relative;
+                 margin-top: 10px;
+                font-size: 10px;
+                margin-left: 2%;
+            }
+            .s2t4{
+                
+                position: absolute;
+                margin-left: 2%;
+                margin-top: 160px;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            
+            .s2t5{
+                position: absolute;
+                margin-top: 160px;
+                margin-left: 150px;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                color: #000000;
+            }
+            .s2t4:hover{
+                position: absolute;
+                background-color: black;
+                margin-left: 2%;
+                margin-top: 160px;
+                color: white;
+                font-size: larger;
+                font-family: 'Times New Roman', Times, serif;
+                width: 30%;
+                height: 10%;
+                text-align: center;
+                
+                
+            }
+            .s2t6{
+                margin-top: 63%;
+                background-color: #cdcbcb;
+                font-size: small;
+            }
+            .section3{
+                display: block;
+                width: 100%;
+                margin-top: 10%;
+            }
+            .s3d1{
+                margin-left: 0px;
+                margin-right: 0%;
+            }
+            .s3d2{
+                margin-left: 0%;
+                margin-right: 0%;
+            }
+            .s3t1{
+                position: absolute;
+                margin-top: -190px;
+                margin-left: 2%;
+                font-size: 15px;
+            }
+            .s3t2{
+                position: absolute;
+                margin-top: -160px;
+                margin-left: 2%;
+                font-size: 10px;
+            }
+            .s3t3{
+                position: absolute;
+                margin-top: -50px;
+                margin-left: 2%;
+            }
+            .s3t3:hover{
+                position: absolute;
+                background-color: black;
+                text-align: center;
+                width: 30%;
+                height: 10%;
+                color: white;
+                margin-top: -50px;
+                margin-left: 2%;
+                font-size: 20px;
+            }
+            .s3t5{
+                position: absolute;
+                margin-top: 150px;
+                color: #000;
+                margin-left: -60%;
+            }
+            .s3t11{
+                position: absolute;
+                margin-top: -180px;
+                margin-left: 2%;
+                font-size :10px;
+                color: #908e8e;
+                line-height: 2%;
+            }
+            .s3t22{
+                position: absolute;
+                margin-top: -160px;
+                margin-left: 2%;
+                font-size: 20px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .s3t33{
+                position: absolute;
+                margin-top: -130px;
+                margin-left: 2%;
+            }
+            .s3t44{
+                position: absolute;
+                margin-top: -30px;
+                margin-left: 2%;
+            }
+            .s3t44:hover{
+                background-color: #000;
+                text-align: center;
+                width: 5%;
+                height: 6%;
+                color: white;
+                margin-top: -30px;
+                margin-left: 2%;
+                font-size: 20px;
+            }
+            .s3t55{
+                position: absolute;
+                margin-top: 300px;
+                margin-left: -250px;
+                color: black;
+
+            }
+            .s3t6{
+                margin-top: -4px;
+                font-size: small;
+                background-color:#cdcbcb;
+            }
+            .tt1{
+                margin-left:2%;
+                margin-top: 2%;
+                font-size: 20px;
+            }
+            .section4{
+                margin-top: 30px;
+                margin-left: 1px;
+                width: 100%;
+                display: block;
+            }
+            .s4d1{
+                width: 100%;
+                margin-left: 1px;
+                background-color: white;
+
+            }
+            .s4t1{
+                position: relative;
+                margin-top: 0px;
+                margin-left: .2%;
+                width: 100%;
+                font-size: 5px;
+            }
+            .s4t2{
+                margin-top: -460px;
+                margin-left: 2%;
+                font-size: 30px;
+            }
+            .s4t3{
+                margin-top: 340px;
+                margin-left: 2%;
+            }
+            .s4d2{
+                margin-top: 10px;
+                width: 100%;
+                height: 490px;
+                background-color: #f4f2f2;
+                margin-left: 2%;
+            }
+            .s4t11{
+                margin-left: 2%;
+                font-size: 40px;
+            }
+            .s4t22{
+                margin-top: -30px;
+                margin-left: 2%;
+            }
+            .s4t33{
+                position: absolute;
+                margin-top: -250px;
+                margin-left: 150px;
+                background-color: #f4f2f2;
+                color: #000;
+                border: #ffffff 2px solid;
+                border-radius: 30%;
+                width: fit-content;
+            }
+            .s4t22:hover{
+                background-color: #000000;
+                color: white;
+                margin-left: 2%;
+                margin-right: 2%;
+                height: 6%;
+                text-align: center;
+                padding-top: 2%;
+            }
+            .off{
+                color: red;
+                margin-top: -70px;
+            }
+            .section5{
+                display: block;
+                margin-top: 30px;
+                width: 100%;
+                height: 450px;
+                background-color: #000000;
+            }
+            
+            
+            .s5d1{
+                color: #ffffff;
+                width: 100%;
+                
+            }
+            .s5t1{
+                font-size: 50px;
+                margin-left: 20%;
+            }
+            .s5t2{
+                margin-top: 250px;
+                font-size: 15px;
+                margin-left: 10%;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .s5t3{
+                margin-top: 10px;
+                font-size: 15px;
+                margin-left: 20%;
+                color: #ffffff;
+            }
+            .s5d2{
+                width: 100%;
+                display: block;
+                margin-top: 1px;
+            }
+            .s5dt1{
+                margin-left: 1%;
+                margin-top: 40%;
+            }
+            .s5dt2{
+                background-color: #262626;
+                width: 100%;
+                margin-left: 1%;
+                margin-top: 0%;
+                height: 4%;
+            }
+            .s5dt3{
+                margin-top: 10%;
+                width: 100%;
+            }
+            .s5t4{
+                margin-top: 1px;
+                color: #060606;
+                font-size: 25px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+            }
+            .s5t5{
+                margin-top: 1px;
+                color: #000000;
+            }
+            #plus{
+                color: red;
+            }
+            .section6{
+                display: block;
+            }
+            .s6d1{
+                position: relative;
+                margin-left: 5%; 
+                margin-top: 600%;
+                font-size: 50px;
+                color: #6b6969;
+                width: 50%;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            }
+            .s6d2{
+                margin-left: 540px;
+                font-size: 20px;
+                color: #6b6969;
+                margin-top: 4%;
+            }
+            .line{
+                margin-left: 5%;
+                margin-top: 1%;
+                margin-right: 10%;
+            }
+            .section7{
+                display: block;
+                margin-left: 5%;
+                margin-right: 10%;
+            }
+            .s7d1{
+                margin-top: 10%;
+                background-color:#f4f2f2 ;
+                margin-left: 2%;
+                height: 370px;
+            }
+            .s7t1{
+                margin-top: -25px;
+                font-size: 10px;
+            }
+            .s7t2{
+                margin-top: 10%;
+            }
+            .s7t3:hover{
+                background-color: #000000;
+                color: #ffffff;
+                width: 100%;
+                text-align: center;
+                padding-top: 5px;
+                height: 7%;
+            }
+            .section8{
+                display: block;
+            }
+            .s8d1{
+            margin-left: 5%; 
+            margin-top: 5%;
+            font-size: 50px;
+            color: #6b6969;
+            width: 50%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            }
+            .s8d2{
+                margin-left: 540px;
+                font-size: 20px;
+                color: #6b6969;
+                margin-top: 6%;
+            }
+            .section9{
+                display: block;
+                margin-top: 5%;
+                margin-left: 5%;
+                width: 85%;
+                margin-right: 10%;
+            }
+            .s9d1{
+                margin-top: 10%;
+                background-color:#f4f2f2 ;
+                margin-left: 2%;
+                height: 350px;
+            }
+            .s9t1{
+                margin-top: -30%;
+                font-size: 30px;
+            }
+            .s9t2{
+                margin-top: 30px;
+            }
+            .s9t3:hover{
+                background-color: #000000;
+                color: #ffffff;
+                width: 100%;
+                text-align: center;
+                padding-top: 5px;
+                height: 7%;
+            }
+            .s9t4{
+                margin-top: 60px;
+            }
+            .s9t4:hover{
+                background-color: #000000;
+                margin-top: 60px;
+                color: #ffffff;
+                width: 100%;
+                text-align: center;
+                padding-top: 5px;
+                height: 7%;
+            }
+            .section10{
+                display: block;
+            }
+            .s10d1{
+            margin-left: 5%; 
+            margin-top: 1%;
+            font-size: 50px;
+            color: #6b6969;
+            width: 50%;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            }
+            .s10d2{
+                margin-left: 540px;
+                font-size: 20px;
+                color: #6b6969;
+                margin-top: 1%;
+            }
+            .section11{
+                display: block;
+                margin-top: 10%;
+                margin-left: 5%;
+                width: 85%;
+                margin-right: 10%;
+            }
+            .s11d1{
+                background-color:#f4f2f2 ;
+                margin-top: 10%;
+                /* margin-left: 2%; */
+                width: 100%;
+                height: 500px;
+            }
+            .s11t1{
+                font-size: 30px;
+                margin-top: 5%;
+            }
+            .s11t5{
+                font-size: 30px;
+                /* margin-top: 40%; */
+            }
+            .s11t6{
+                font-size: 30px;
+                margin-top: 10%;
+            }
+            .s11t2{
+                margin-top: 30px;
+            }
+            .s11t3:hover{
+                background-color: #000000;
+                color: #ffffff;
+                width: 100%;
+                text-align: center;
+                padding-top: 5px;
+                height: 7%;
+            }
+            .s11t4{
+                margin-top: 60px;
+            }
+            .s11t4:hover{
+                background-color: #000000;
+                margin-top: 60px;
+                color: #ffffff;
+                width: 100%;
+                text-align: center;
+                padding-top: 5px;
+                height: 7%;
+            }
+            .ban6{
+                background-color: #ffffff;
+                display: flex;
+                padding-left: 1%;
+                
+            }
+            .b6t1{
+                font-size: large;
+                margin-left: 5px;
+            }
+            .b6t2{
+                font-size: large;
+                
+                margin-left: 70px;
+            }
+            .ban7{
+                display: block;
+                padding-left: 5%;
+            }
+            .b7t1{
+                font-size: x-large;
+            }
+            .b7t2{
+                font-size: large;
+                margin-top: 50px;
+            }
+            .b7t3{
+                font-size: xx-small;
+                color: #000;
+            }
+            .ban7i{
+                margin-top: 10px;
+            }
+            .table3{
+                display: block;
+                margin-top: 1px;
+                padding: 5% 5% 0 5%;
+                justify-content: space-evenly;
+            }
+            .t31{
+                padding-right: 10%;
+                width: 100%;
+            }
+            .t3t1{
+                width: 100%;
+                font-size: xx-large;
+            }
+            .t3t2{
+                color: #000000;
+            }
+            .t32{
+                margin-top: 10px;
+                padding-right: 5%;
+                width: 100%;
+            }
+            .t33{
+                margin-top: 10px;
+                padding-right: 5%;
+                width: 100%;
+            }
+            .t3t3{
+                width: 75%;
+            }
+            .line6{
+                padding-left: 1%;
+            }
+            .t40{
+                display: block;
+                
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            .t41{
+            background-color: #d1cdcd; 
+            }
+            .t4t1{
+                font-size: large;
+                color: #8a8989;
+                padding-left: 2%;
+            }
+            .t4t2{
+                font-size: xx-large;
+                padding-left: 2%;
+            }
+            .t4t3{
+                font-size: large;
+                margin-top: 100px;
+                padding-left: 2%;
+            }
+            .t4t4{
+                color: black;
+                padding-left: 2%;
+            }
+            .t43{
+                background-color: #d1cdcd;
+                margin-left: 2%;
+            }
+            .d1,.d2,.d3{
+                display: none;
+                border: 2px solid rgb(234,234,234);
+                border-collapse: collapse; 
+            }
+            .d1{
+                margin-top: 1%;
+                margin-left: 1%;
+                
+                width: 80%;
+                height: 70px;
+            }
+            .d3{
+                padding-left: 2px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                
+            }
+            #a97{
+                background-color: black;
+                width: 100%;
+                height: 900px;
+                
+                
+                
+            }
+            #a98{
+                position: relative;
+                top: 40px;
+                left: 5%;
+                color: white;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 20px;
+            }
+            #a99{
+                position: relative;
+                top: 30px;
+                
+                color: rgba(77, 77, 77, 0.281);
+                width: 90%;
+            }
+            #a100{
+                display: block;
+                margin-left: 1%;
+                width: 80%;
+                margin-top: 60px;
+            }
+            .a101{
+                margin-top: -150px;
+                margin-left: 1%;
+            }
+            #e1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: medium;
+                position: relative;
+                top: -150px;
+                left: 2px;
+            }
+            #e2{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: medium;
+                position: relative;
+                top: -170px;
+                left: 1px;
+            }
+            #e3{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: 10px;
+                position: relative;
+                top: -180px;
+                left: 2px;
+                border: 1px solid white;
+                width: 80%;
+                height: 40px;
+                text-align: center;
+                padding-top: 15px;
+
+            }
+            #e4{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: large;
+                width: 100%;
+                position: relative;
+                top: -200px;
+                left: 2px;
+            }
+            #e7{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: white;
+                font-size: 18px;
+                position: relative;
+                top: -50px;
+                left: 2px;
+                border: 1px solid white;
+                width: 80%;
+                height: 40px;
+                text-align: center;
+                padding-top: 1px;
+            }
+           #e5{
+                color: #ffffff;
+                margin-top: -210px;
+           }
+            
+            
+            .f6{
+                
+                background-color: #000000;
+                text-align: center;
+                padding-right: 10%;
+                padding-left: 10%;
+                color: white;
+                display: block;
+            }
+            .f61{
+                font-family: cursive;
+                
+                margin-left: 5%;
+            }
+            .fo{
+                margin-top: -15px;
+                display: block;
+                /* background-color: black; */
+            }
+            .f1{
+                background-color: #000;
+                color: #ffffff;
+                margin-top: 10px;
+                display: flex;
+                justify-content: space-evenly; 
+                width: 80%;
+            }
+            .f5{
+                color: #ffffff;
+                display: flex;
+                justify-content: space-evenly;
+                width: 80%;
+                margin-left: 0%;
+            }
+            .t{
+                color: #ffffff;
+                margin: 20px;
+            }
+            .f6{
+                background-color: #000000;
+                text-align: center;
+                padding-right: 10%;
+                padding-left: 10%;
+                color: white;
+                display: block;
+            }
+            .f61{
+                font-family: cursive;
+                margin-top: 1px;
+                margin-left: 5%;
+            }
+            li{
+                list-style-type: none;
+                text-align: left;
+                margin-top: 1px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: #8a8989;
+            }
+            
+            .line7{
+                margin-top: 1px; 
+                size: 2px;
+                color: #ffffff;
+            }
+            .lt1{
+                margin-top: 40%;
+                padding-left: 1%;
+                color: #ffffff;
+            }
+            .fot{
+                color: #ffffff;
+                width: 100%;
+                margin-top: 10px;
+                font-size: large;
+            }
+            .fot1{
+                color: #ffffff;
+                width: 100%;
+                margin-left: 10px;
+            }
+        }
+</style>
+<body>
+    <nav class="nav">
+        <a href="oneplus.html"></a><img src="img/logo.png" alt="" width="10%">
+        <ul class="ul1">
+                <a href="phone.html"></a><li>Phone</li>
+                <li>Tv & Display</li>
+                <li>Audio & Watch </li>
+                <li>Tablet</li>
+                <li>Accessories</li>
+                <li>Offers</li>
+            </ul>
+            
+        <ul class="ul2">
+                <li>Store</li>
+                <li>OneTopia</li>
+                <li>OnePlus Featuring</li>
+                <li>Community</li>
+                <li>Support</li>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </ul>
+    </nav>
+    <hr width="100%" size="1">
+    <section class="section1">
+        <div class="sd1">Store. Never settle for anything less.</div>
+        <div class="sd2">
+            <div class="sdt">
+                <img  src="img/ph1.webp" alt="" width="100%">
+                <p>Phone</p>
+            </div>
+            <div>
+                <img src="img/tv1.webp" alt=""width="100%" >
+                <p>TV & Display</p>
+            </div>
+            <div>
+                <img src="img/ap1.webp" alt=""width="100%">
+                <p>Audio</p>
+            </div>
+            <div>
+                <img src="img/wa1.webp" alt=""width="100%">
+                <p>Wearables</p>
+            </div>
+            <div>
+                <img src="img/pc1.webp" alt=""width="100%">
+                <p>Power & Cables</p>
+            </div>
+            <div>
+                <img src="img/cp1.webp" alt=""width="100%">
+                <p>Cases & Protection</p>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div><img class="ban1" src="img/ba1.webp" alt="" width="100%" height="600px"></div>
+        <div class="s2d2">
+            <p class="s2t1"> A little more than you'd expect</p>
+            <h1 class="s2t2">OnePlus Nord CE3 <sup>5G</sup></h1>
+            <p class="s2t3">from <i class="fa fa-inr" aria-hidden="true"></i>24 999<sup>*</sup>lncl.bank discunt</p>
+            <p class="s2t4">Buy Now</p>
+            <a href="bt3" class="s2t5">Learn More 
+            </a>
+            <p class="s2t6">Sale is now live !</p>
+        </div>
+    </section>
+    <section class="section3">
+        <div class="s3d1">
+            <img src="img/tb1.webp" alt="" width="100%">
+            <p class="s3t1">OnePlus 11R <sup>5G</sup></p>
+            <p class="s3t2">From<i class="fa fa-inr" aria-hidden="true"></i>38 999 <sup>*</sup> lncl.bank discount </p>
+            <a href="" class="s3t5">Learn More</a>
+            <p class="s3t3">Buy Now</p>
+            <p class="s3t6">No Cost EMI startd at<i class="fa fa-inr" aria-hidden="true"></i>4 444/month </p>            
+        </div>
+        <div class="s3d2">
+            <img src="img/tb2.webp" alt="" width="100%">
+            <p class="s3t11">Less Noise.More Groove.</p>
+            <h1 class="s3t22">OnePlus BWZ2 ANC</h1>
+            <p class="s3t33">From<i class="fa fa-inr" aria-hidden="true"></i>2,299 </p>
+            <p class="s3t44">Buy Now</p>
+            <a href="" class="s3t55">Learn More</a>
+            <p class="s3t6">Get GST invoice and save up to 18% on business purchases</p>
+        </div>
+    </section>
+    <div class="tt1">On Sale Now </div>
+    <section class="section4">
+        <div class="s4d2">
+            <img src="img/offer 1.jpg" alt="" width="100%">
+            <p class="s4t1">get your phone cases up to 80% off</p>
+                <h1 class="s4t2">Phone Case Deals</h1>
+                <p class="s4t3">Buy Now</p>
+            
+        </div>
+        <div class="s4d2">
+            <img src="img/p1.png" alt="" width="100%">
+            <p class="s4t11">OnePlus 11 5G</p>
+            <p class="s4t22">From<i class="fa fa-inr" aria-hidden="true"></i>2,299 </p>
+            <p class="s4t33">Learn more</p>
+        </div>
+        <div class="s4d2">
+            <img src="img/pp1.png" alt="" width="100%">
+            <p class="s4t11">OnePlus Nord 3 5G</p>
+            <p class="s4t22">From<i class="fa fa-inr" aria-hidden="true"></i>2,299 </p>
+        </div>
+        <div class="s4d2">
+            <img src="img/tv4k.png" alt="" width="100%">
+            <p class="off"> up to 28% OFF</p>
+            <p class="s4t11">OnePlusTV 43 |50|55 Y1S Pro</p>
+            <p class="s4t22">From<i class="fa fa-inr" aria-hidden="true"></i>2,299 </p>
+        </div>
+    </section>
+    <section class="section5">
+        <div class="s5d1">
+            <p class="s5t0">Exchange Program</p>
+            <p class="s5t2">Upgrade your old phone to the latest one device.</p>
+            <a href="" class="s5t3">Get Started</a>
+        </div>
+        <div class="s5d2">
+            <div class="s5dt1">
+                <img src="img/ppp1.webp" alt="" width="100%">
+                <p class="s5t4">OnePlus 11 <sup>5G</sup></p>
+                <p class="s5t5">Save additional up to<i class="fa fa-inr" aria-hidden="true"></i>6 000 with exchange bonus on select devices </p>
+            </div>
+            <div class="s5dt1">
+                <img src="img/ppp2.webp" alt="" width="100%">
+                <p class="s5t4">OnePlus 10T <sup>5G</sup></p>
+                <p class="s5t5">Save more with exchange</p>
+            </div>
+            <div class="s5dt2">
+                <img src="img/ppp3.webp" alt="" width="100%">
+                <p class="s5t4">OnePlus Nord 3</p>
+                <p class="s5t5">save additional<i class="fa fa-inr" aria-hidden="true"></i>with exchange bonus on select devices</p>
+            </div>
+            <div class="s5dt3">
+                <img src="img/ppp4.webp" alt="" width="100%">
+                <p class="s5t4">OnePlus 11R <sup>5G</sup></p>
+                <p class="s5t5">Save additional up to <i class="fa fa-inr" aria-hidden="true"></i>3 000 with exchange bonus on select devices</p>
+            </div>
+        </div>
+    </section>
+    <section class="section6">
+        <div class="s6d1">TV&Display</div>
+        <div class="s6d2">View all<i class="fa fa-plus" id="plus" aria-hidden="true"></i></div>
+    </section><hr class="line">
+    <section class="section7">
+        <div class="s7d1">
+            <img src="img/tvd6.png" alt="" width="100%">
+            <p class="s7t1">OnePlus TV Q Series 65 Q2 Pro</p>
+            <p>Up to ₹5,000 instant bank discount; EMI up to 24 months</p>
+            <p class="s7t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹99,999</p>
+        </div>
+        <div class="s7d1">
+            <img src="img/tvd7.png" alt="" width="100%">
+            <p class="s7t1">OnePlus TV Y Series 32 | 43 Y1S Edge</p>
+            <p>Up to ₹1500 instant bank discount; Save extra ₹1000 by using the RCC linked device benefit.</p>
+            <p class="s7t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹16,499</p>
+        </div>
+        <div class="s7d1">
+            <img src="img/tvd10.png" alt="" width="100%">
+            <p class="s7t1">OnePlus Monitor X 27</p>
+            <p class="s7t2">EMI up to 24 months</p>
+            <p class="s7t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹27,999</p>
+        </div>
+        <div class="s7d1">
+            <img src="img/tvd3.png" alt="" width="100%">
+            <p class="s7t1">OnePlus TV U Series 50 | 55 | 65 U1S</p>
+            <p>Up to ₹4000 instant bank discount; Save extra ₹2000 by using the RCC linked device benefit.</p>
+            <p class="s7t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹37,999</p>
+        </div>
+    </section>
+    <section class="section8">
+        <div class="s8d1">Audio</div>
+        <div class="s8d2">View all<i class="fa fa-plus" id="plus" aria-hidden="true"></i></div>
+    </section><hr class="line">
+    <section class="section9">
+        <div class="s9d1">
+            <img src="img/ep1.png" alt="" width="100%">
+            <p class="s9t1">OnePlus Nord Buds 2</p>
+            <p>Save extra ₹150 by using the RCC linked device benefit </p>
+            <p class="s9t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹2,999</p>
+        </div>
+        <div class="s9d1">
+            <img src="img/ep2.png" alt="" width="100%">
+            <p class="s9t1">OnePlus Nord Buds 2r</p>
+            <!-- <p>Up to ₹1500 instant bank discount; Save extra ₹1000 by using the RCC linked device benefit.</p> -->
+            <p class="s9t4"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹2,199</p>
+        </div>
+        <div class="s9d1">
+            <img src="img/ep3.png" alt="" width="100%">
+            <p class="s9t1">OnePlus Buds Z2</p>
+            <p class="s9t2">Save extra ₹200 by using the RCC linked device benefit </p>
+            <p class="s9t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹4,999</p>
+        </div>
+        <div class="s9d1">
+            <img src="img/ep4.png" alt="" width="100%">
+            <p class="s9t1">OnePlus Bullets Wireless Z2</p>
+            <!-- <p>Up to ₹4000 instant bank discount; Save extra ₹2000 by using the RCC linked device benefit.</p> -->
+            <p class="s9t4"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹1,999</p>
+        </div>
+    </section>
+    <section class="section10">
+        <div class="s10d1">Accessories</div>
+        <div class="s10d2">View all<i class="fa fa-plus" id="plus" aria-hidden="true"></i></div>
+    </section><hr class="line">
+    <section class="section1">
+        <div class="s11d1">
+            <img src="img/as1.png" alt="" width="100%">
+            <p class="s11t1">OnePlus 11R 5G Aramid Fiber Case Black</p>
+            <!-- <p>Save extra ₹150 by using the RCC linked device benefit </p> -->
+            <p class="s11t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹1,299</p>
+        </div>
+        <div class="s11d1">
+            <img src="img/as2.png" alt="" width="100%">
+            <p class="s11t1">OnePlus Nord CE 3 Lite 5G Sandstone Bumper Case</p>
+            <!-- <p>Up to ₹1500 instant bank discount; Save extra ₹1000 by using the RCC linked device benefit.</p> -->
+            <p class="s11t3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹799</p>
+        </div>
+        <div class="s11d1">
+            <img src="img/as3.png" alt="" width="100%">
+            <p class="s11t6">OnePlus SUPERVOOC 80W Power Adapter</p>
+            <!-- <p class="s11t2">Save extra ₹200 by using the RCC linked device benefit </p> -->
+            <p class="s11t4"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹1,990</p>
+        </div>
+        <div class="s11d1">
+            <img src="img/as4.png" alt="" width="100%">
+            <p class="s11t5">OnePlus SUPERVOOC Type-c to Type-c Cable</p>
+            <!-- <p>Up to ₹4000 instant bank discount; Save extra ₹2000 by using the RCC linked device benefit.</p> -->
+            <p class="s11t4"><i class="fa fa-cart-plus" aria-hidden="true"></i>From₹849</p>
+        </div>
+    </section>
+    <section class="ban6">
+        <p class="b6t1">Support</p>
+        
+        
+        
+    </section>
+    
+    <section class="line6" >
+        <hr width="100%" size="2">
+    </section>
+
+    <section class="t40">
+        <div class="t41">
+            <p class="t4t1">One-on-One with OnePlus</p>
+            <p class="t4t2">Your personal helpdesk.</p>
+            <p class="t4t3">From finding the perfect phone to quickly resolving queries, we're always ready to help.</p>
+            <a href="" class ="t4t4">Let’s chat
+            </a>
+        </div>
+        <div class="t42">
+            <img src="img/t42.jpg" alt="" width="100%">
+        </div>
+
+        <div class="t43">
+            <p class="t4t1">OnePlus Service Center</p>
+            <p class="t4t2">Our technical team is here to help</p>
+            <p class="t4t3">We have over 250 authorized service centers across India. All the fully-trained OnePlus staff are at your service.</p>
+            <a href="" class ="t4t4">Find nearest service center</a>
+        </div>
+        <div class="t44">
+            <img src="img/t44.webp" alt="" width="100%">
+        </div>
+    </section>
+    <table class="d1">
+        <tr class="d2">
+            <td class="d3">Product help <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+            <td class="d3">Shopping FAQ <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+            <td class="d3">Troubleshooting <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+            <td class="d3">Protection plan <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></td>
+        </tr>
+    </table>
+    <div id="a97">
+        <p id="a98">Stay connected</p>
+        <hr id="a99">
+        <div id="a100">
+            <div>
+                <img  src="img/f1.webp" width="100%"
+                    height="350px" alt>
+                <pre id="e1">Shop With Exclusive 
+                            Benefits</pre>
+                <pre id="e2">Download OnePlus store app on Google 
+                            Play</pre>
+                <pre id="e3"><i class="fa fa-play" aria-hidden="true"></i>   Google play</pre>
+            </div>
+            <div class="a101">
+                <img src="img/f2.webp" width="100%"
+                    height="330px" alt>
+                <pre id="e4">Always be the first to 
+                            know.</pre>
+
+                <pre id="e5">Sign up for our newsletter!</pre>
+                <p id="e6">Subscribe to receive news, promotions <br> and recommendations about OnePlus products and services from OnePlus, its agencies and partners.</p>
+                <p id="e7">Subscribe Now</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="f6">
+        <div class="f61"> <strong>Phones</strong>
+            <ul>
+                <li>OnePlus 11 5G</li>
+                <li>OnePlus 11R 5G</li>
+                <li>OnePlus Nord 3 5G</li>
+                <li>OnePlus Nord CE3 5G</li>
+                <li>OnePlus Nord CE 3 Lite 5G</li>
+                <li>OnePlus 10R 5G</li>
+                <li>OnePlus 10 Pro 5G</li>
+                <li>OnePlus Nord 2T 5G</li>
+                <li>OnePlus Nord CE 2 Lite 5G</li>
+                <li>OnePlus 10T 5G</li>
+                <li>OnePlus 9 5G</li>
+                <li>OnePlus 9R 5G</li>
+            </ul>
+            
+
+
+    </div>
+    <div class="f61"><strong>Store</strong>
+    <ul class="f62">
+        <li>Tablet</li>
+        <li>TV & Display</li>
+            <li>Audio</li>
+            <li>Wearables</li>
+            <li>Cases & Protection</li>
+            <li>Power & Cables</li>
+            <li>Bundles</li>
+            <li>Gear</li>
+    </ul>
+    </div>
+    <div class="f61">Support
+        <ul class="f62">
+            <li>Protection Plan</li>
+            <li>Shopping FAQs</li>
+            <li>User Manuals</li>
+            <li>Service Centers</li>
+            <li>Affiliate Program</li>
+            <li>Repair Service</li>
+            <li>Repair Pricing</li>
+            <li>TV Spare Part Price</li>
+            <li>Software Update</li>
+        </ul>
+    </div>
+    <div class="f61">Explore
+        <ul class="f62">
+            <li>About OnePlus </li>
+            <li>Community</li>
+            <li>Find a store</li>
+            <li>OnePlus Store app</li>
+            <li>OxygenOS</li>
+            <li>Press</li>
+            <li>Blog</li>
+            <li>Careers</li>
+            <li>Campus Opportunities</li>
+        </ul>
+    </div>
+    <div class="f61">Programs
+        <ul class="f62">
+            <li>Exchange Program</li>
+            <li>Red Cable Club</li>
+        </ul>
+    </div>
+</section>
+<section class="fo">
+    <div class="f1">
+        <p><i class="fa fa-credit-card" aria-hidden="true"></i> Credit/Debit Card</p>
+        <p><i class="fa fa-university" aria-hidden="true"></i> NetBanking</p>
+        <p><i class="fa fa-circle-o-notch" aria-hidden="true"></i>EMI</p>
+        <p><i class="fa fa-google-wallet" aria-hidden="true"></i>Wallet</p>
+    </div>
+    <div class="f5">
+        <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+        <p><i class="fa fa-twitter" aria-hidden="true"></i></p>
+        <p><i class="fa fa-instagram" aria-hidden="true"></i></p>
+        <p>Get Support From OnePlus<i class="fa fa-chevron-down" aria-hidden="true"></i></p>
+    </div>
+</section>
+<section class="fo">
+    <hr style="color: #fdfcfc; background-color: #ffffff;width: 100%;" size="2px">
+</section>
+<section class="fo">
+    <div class="fot">Privacy Policy|</div>
+    <div class="fot">User Agreement|</div>
+    <div class="fot">
+        Terms of Sales|</div>
+    <div class="fot">E-waste management|</div>
+    <div class="fot">
+        Security Feedback|</div>
+    <div class="fot">
+        © 2013 - 2023 OnePlus. All Rights Reserved.</div>
+    <div class="fot">
+        <img src="img/lastim.png" alt="" width="50%">
+    </div>
+    <div class="fot1">India (English)<i class="fa fa-globe" aria-hidden="true"></i></div>
+</section>
+</body>
+</html>

@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .nav{
+            display: flex;
+            width: auto;
+        }
+        .ul1{
+            display: flex;
+            
+            justify-content: space-evenly;
+            list-style-type: none ;
+            width: 30%;
+        }
+        a{
+            text-decoration: none;
+        }
+        .ul2{
+            position: absolute;
+            margin-top: 10px;
+            right: 10px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 30%;
+            list-style-type: none;            
+        }
+        .penimg{
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            padding-left: 10%;
+            padding-right: 10%;  
+        }
+        .phi{
+            width: 10%;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: large;
+        }
+        .vl{
+            border-left: 10% solid;
+            height: 500px;
+            position: absolute;
+            left: 50%;
+            margin-left: -3px;
+            top: 0;
+        }
+        .in{
+            padding-left: 13%;
+            margin-top: 10%;
+            font-size: large;
+            
+        }
+        .new{
+            color: #ff0000;
+        }
+        .pho{
+            position: absolute;
+            top: 300px;
+        }
+        .phone{
+            display: flex;
+            margin-top: 2%;
+            width: 50%;
+            justify-content: space-between;
+            padding-left: 30%;
+            padding-top: 5%;
+            
+        }
+        .ph2{
+            padding-top: 5%;
+            width: 90%;
+            margin-right: 10px;  
+        }
+        .ph1{
+            padding-top: 5%;
+            background-color: rgb(244, 244, 244); 
+            width: 90%;
+            
+            margin-right: 10px;  
+        }
+        #a1{
+            width: 80%;
+            height: 2400px; 
+            /* border: 1px solid;  */
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        #a2{
+            width: 30%;
+            height: 1000px;
+            /* border: 1px solid; */
+        }
+        .pht1{
+            font-size: x-large;
+            margin-top: 1px;
+            margin-left: 1%;
+        }
+        .pht2{
+            
+            margin-top: 1px;
+            margin-left: 1%;
+        }
+        .pht3{
+            font-size: large;
+            margin-top: 1px;
+            margin-left: 1%;
+        }
+        .pht3:hover{
+            border: 2px solid;
+            text-align: center;
+            height: 30px;
+            padding-top: 3%;
+            background-color: #000000;
+            color: white;
+            
+        }
+        .leftt{
+            margin-top: 20px;
+        }
+        .leftt:hover:hover{
+            color: #ff0000;
+            
+            
+            
+        }
+        .pht4{
+            color: #ff0000;
+            margin-left: 2%;
+        }
+        
+        .fo{
+            display: flex;
+            
+            background-color: black;
+        }
+        .f1{
+            color: #ffffff;
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+        }
+        .f5{
+            color: #ffffff;
+            display: flex;
+            justify-content: space-evenly;
+            width: 30%;
+            margin-left: 50%;
+        }
+        .t{
+            margin: 20px;
+        }
+        .f6{
+            margin-top: -80px;
+            background-color: #000000;
+            text-align: center;
+            padding-right: 10%;
+            padding-left: 10%;
+            color: white;
+            display: flex;
+        }
+        .f61{
+            font-family: cursive;
+            margin-top: 20px;
+            margin-left: 5%;
+        }
+        li{
+            list-style-type: none;
+            text-align: left;
+            margin-top: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #8a8989;
+        }
+        
+        .line7{
+            margin-top: 10px; 
+            size: 2px;
+            color: #ffffff;
+        }
+        .lt1{
+            padding-left: 10%;
+            color: #ffffff;
+        }
+        .f61:hover{
+            color: #ffffff;
+        }
+        #u1{
+            color: #fdfcfc;
+        }
+        .fot{
+            color: #ffffff;
+            width: 40%;
+            
+            font-size: large;
+        }
+        .fot1{
+            color: #ffffff;
+            width: 60%;
+            margin-left: 100px;
+        }
+        @media screen and (max-width:400px) {
+            .nav{
+                display: block;
+                width: auto;
+            }
+            .ul1{
+                display: none;
+                
+                justify-content: space-evenly;
+                list-style-type: none ;
+                width: 30%;
+                padding: 0 10% 0 10%;
+            }
+            .ul2{
+                position: absolute;
+                margin-top: 10px;
+                right: 10px;
+                display: none;
+                justify-content: space-evenly;
+                width: 30%;
+                list-style-type: none;            
+            }
+            .penimg{
+                display: block;
+                justify-content: space-evenly;
+                width: 80%;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                  
+            }
+            .phi{
+                width: 100%;
+                /* text-align: center; */
+                font-family: 'Courier New', Courier, monospace;
+                font-size: xx-large;
+            }
+            .vl{
+                border-left: 10% solid;
+                height: 500px;
+                position: absolute;
+                left: 50%;
+                margin-left: -3px;
+                top: 0;
+            }
+            .in{
+                padding-left: 13%;
+                margin-top: 10%;
+                font-size: xx-large;
+                width: 100%;
+                
+            }
+            .new{
+                color: #ff0000;
+            }
+            .pho{
+                position: relative;
+                top: 10px;
+            }
+            .phone{
+                display: block;
+                width: 80%;
+                justify-content: space-between;
+                padding-left: 1%;
+                padding-top: -10%;
+                
+            }
+            .ph2{
+                padding-top: 5%;
+                width: 90%;
+                margin-right: 10px;  
+            }
+            .ph1{
+                padding-top: 5%;
+                background-color: rgb(244, 244, 244); 
+                width: 100%;
+                
+                
+            }
+            #a1{
+                width: 100%;
+                height: 2400px; 
+                /* border: 1px solid;  */
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+            #a2{
+                width: 30%;
+                height: 1000px;
+                /* border: 1px solid; */
+            }
+            .pht1{
+                font-size: x-large;
+                margin-top: 1px;
+                margin-left: 1%;
+            }
+            .pht2{
+                
+                margin-top: 1px;
+                margin-left: 1%;
+            }
+            .pht3{
+                font-size: large;
+                margin-top: 1px;
+                margin-left: 1%;
+            }
+            .pht3:hover{
+                border: 2px solid;
+                text-align: center;
+                height: 30px;
+                padding-top: 3%;
+                background-color: #000000;
+                color: white;
+                
+            }
+            .leftt{
+                font-size: large;
+                margin-top: 20px;
+            }
+            .leftt:hover:hover{
+                color: #ff0000;
+                
+                
+                
+            }
+            .pht4{
+                color: #ff0000;
+                margin-left: 2%;
+            }
+            
+            .fo{
+                margin-top: -20px;
+                display: block;
+                background-color: black;
+                width: 100%;
+            }
+            .f1{
+                color: #ffffff;
+                display: block;
+                margin-top: 20px;
+                justify-content: space-evenly;
+                width: 50%;
+            }
+            .f5{
+                color: #ffffff;
+                display: flex;
+                justify-content: space-evenly;
+                width: 5%;
+                margin-left: 10%;
+            }
+            .t{
+                margin: 20px;
+            }
+            .f6{
+                margin-top: 3600px;
+                background-color: #000000;
+                text-align: center;
+                padding-right: 1%;
+                padding-left: 1%;
+                color: white;
+                display: block;
+            }
+            .f61{
+                font-family: cursive;
+                margin-top: 1px;
+                margin-left: 1%;
+            }
+            li{
+                list-style-type: none;
+                text-align: left;
+                margin-top: 1px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: #8a8989;
+            }
+            
+            .line7{
+                margin-top: 1px; 
+                size: 2px;
+                color: #ffffff;
+            }
+            .lt1{
+                margin-top: 40%;
+                padding-left: 1%;
+                color: #ffffff;
+            }
+            .fot{
+                color: #ffffff;
+                width: 100%;
+                margin-top: 10px;
+                font-size: medium;
+            }
+            .fot1{
+                margin-top: 100px;
+                color: #ffffff;
+                width: 10%;
+                margin-left: 10px;
+            } 
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="oneplus.html"></a><img src="img/logo.png" alt="" width="100px">
+        <ul class="ul1">
+                <li>Phone</li>
+                <li>Tv & Display</li>
+                <li>Audio & Watch </li>
+                <li>Tablet</li>
+                <li>Accessories</li>
+                <li>Offers</li>
+            </ul>
+            
+        <ul class="ul2">
+                <a href="store.html"><li>Store</li></a>
+                <li>OneTopia</li>
+                <li>OnePlus Featuring</li>
+                <li>Community</li>
+                <li>Support</li>
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+            </ul>
+    </nav>
+    <section class="penimg">
+        <div class="phi">
+            <img src="img/p1.svg" alt="" width="100%">
+            <p>all</p>
+        </div>
+        <div class="phi"> 
+            <img src="img/p2.svg" alt="" width="100%">
+            <p>Mobile</p>
+        </div>
+        <div class="phi">
+            <img  src="img/p3.svg" alt="" width="100%">
+            <p>Tablet</p>
+        </div>
+        <div class="phi">
+            <img src="img/p4.svg" alt=""width="100%">
+        <p>TV&Display</p>
+        </div>
+        <div class="phi">
+            <img src="img/p5.svg" alt=""width="100%">
+        <p>Audio</p>
+        </div>
+        <div class="phi">
+            <img src="img/p6.svg" alt=""width="100%">
+        <p>Wearables</p>
+        </div>
+        <div class="phi">
+            <img src="img/p7.svg" alt=""width="100%" >
+        <p>Cases&Protection</p>
+        </div>
+        <div class="phi">
+            <img src="img/p8.svg" alt="" width="100%">
+        <p>Bundles</p>
+        </div>
+        <div class="phi">
+            <img src="img/p9.svg" alt=""width="100%">
+        <p>Power&Cables</p>
+        </div>
+        <div class="phi">
+            <img src="img/p10.svg" alt=""width="100%">
+        <p>Gear</p>
+        </div>
+    </section>
+    <section>
+        <hr width="100%" size="2">
+        <div class="vl"></div>
+    </section>
+    
+    
+    
+    
+    <section id="a1">
+        <div id="a2">
+            <section class="in">
+            <div class="leftt">Series</div>
+            <div class="leftt"><input type="checkbox" name="" id="">
+            Flagship Series<sup class="new">New</sup>
+            </div>
+            <div class="leftt">
+                <input class="box" type="checkbox" name="" id="">
+                Nord Series<sup class="new">New</sup>
+            </div>
+        </section>
+            <section class="in">
+                <div class="leftt">Offers</div>
+                <div class="leftt">
+                    <input class="box" type="checkbox" name="" id="">
+                    On Sale <sup class="new">New</sup>
+                </div>
+                <div class="leftt">
+                    <input class="box" type="checkbox" name="" id="">
+                    With Gift
+                </div>
+                <div class="leftt">
+                    <input class="box" type="checkbox" name="" id="">
+                    Save With RedCoins
+                </div>
+            </section>
+            <section class="in">
+                <div class="leftt">RAM/Storage</div>
+                <div class="leftt">
+                    <input class="box" type="checkbox" name="" id="">
+                    6+128GB
+                </div>
+                <div class="leftt">
+                    <input class="box" type="checkbox" name="" id="">
+                    8+128GB
+                </div>
+                <div class="leftt">
+                    <input class="box" type="checkbox" name="" id="">
+                    8+256GB
+                </div>
+                <div class="leftt">
+                    <input class="box" type="checkbox" name="" id="">
+                    12+256GB
+                </div>
+                <div class="leftt">
+                    <input type="checkbox" name="" id="">
+                    16+256GB
+                </div>
+            </section>
+            <section class="in">
+                <div class="leftt">Price Range</div>
+                <div class="leftt">Rs.0-Rs.99.999</div>
+            </section>
+            <section class="in">
+                <div class="leftt">Availability</div>
+                <div class="leftt">
+                    <input type="checkbox" name="" id="">
+                    ln Stock
+                </div>
+            </section>
+        
+        
+        </div>
+        <div>
+            <section class="pho">
+                <section class="phone">
+                    <div class="ph1">
+                        <img src="img/ph1.png" alt="" width="100%">
+                    <h1 class="pht1">OnePlus 11 5G</h1>
+                    <h6 class="pht2">With Gift</h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>56,999</p>
+                    </div>
+                    <div class="ph1">
+                        <img src="img/ph2.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus Nord CE 3 Lite 5G</h1>
+                    <h6 class="pht2">Chromatic Gray 8 GB RAM + 128GB Storage</h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>19.999</p>
+                    </div>
+                    <div class="ph1">
+                        <img src="img/ph3.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus Nord CE3 5G</h1>
+                    <h6 class="pht2">Save up to <i class="fa fa-inr" aria-hidden="true"></i>1,000 With RedCoins </h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>26,999</p>
+                    </div>
+                </section>
+                <section class="phone">
+                    <div class="ph1">
+                        <img src="img/ph4.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus Nord 3 5G</h1>
+                        <br>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>33,999</p>
+                    </div>
+                    <div class="ph1">
+                        <img src="img/ph5.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus 11R 5G</h1>
+                        <br>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>39,999</p>
+                    </div>
+                    <div class="ph1">
+                        <img src="img/ph6.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus 10T 5G</h1>
+                    <h6 class="pht4">Up to 10% OFF</h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>44,999</p>
+                    </div>
+                </section>
+                <section class="phone">
+                    <div class="ph1">
+                        <img src="img/ph7.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus Nord CE2 Lite 5G</h1>
+                        <p class="pht4">4% OFF</p>
+                    <h6 class="pht2">Black Dusk 8GB RAM + 128 GB Storage</h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>56,999</p>
+                    </div>
+                    <div class="ph1">
+                        <img src="img/ph8.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus 10R 5G</h1>
+                        <h6 class="pht4">Up to 10% OFF</h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>34,999</p>
+                    </div>
+                    <div class="ph1">
+                        <img src="img/ph9.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus 10 Pro 5G</h1>
+                        <h6 class="pht4">Up to 14% OFF</h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>56,999</p>
+                    </div>
+                </section>
+                <section class="phone">
+                    <div class="ph1">
+                        <img src="img/ph10.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus 8 5G</h1>
+                        <h6 class="pht4">Up to 10% OFF</h6>
+                    <h6 class="pht2">Astral Blavk 12 GB RAM + 256GB Storage</h6>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>54,999</p>
+                    </div>
+                    <div class="ph1">
+                        <img src="img/ph11.png" alt="" width="100%">
+                        <h1 class="pht1">OnePlus 9R 5G</h1>
+                    <br>
+                    <p class="pht3"><i class="fa fa-cart-plus" aria-hidden="true"></i>From <i class="fa fa-inr" aria-hidden="true"></i>39,999</p>
+                    </div>
+                    <div class="ph2">
+                        <img src="" alt="" width="100%">
+                    </div>
+                </section> 
+        </div>
+    </section>
+    
+    <section class="f6">
+        <div class="f61"> <strong>Phones</strong>
+            <ul class="f62">
+                <li id="u1">OnePlus 11 5G</li>
+                <li>OnePlus 11R 5G</li>
+                <li>OnePlus Nord 3 5G</li>
+                <li>OnePlus Nord CE3 5G</li>
+                <li>OnePlus Nord CE 3 Lite 5G</li>
+                <li>OnePlus 10R 5G</li>
+                <li>OnePlus 10 Pro 5G</li>
+                <li>OnePlus Nord 2T 5G</li>
+                <li>OnePlus Nord CE 2 Lite 5G</li>
+                <li>OnePlus 10T 5G</li>
+                <li>OnePlus 9 5G</li>
+                <li>OnePlus 9R 5G</li>
+            </ul>
+            
+
+
+    </div>
+    <div class="f61"><strong>Store</strong>
+    <ul class="f62">
+        <li>Tablet</li>
+        <li>TV & Display</li>
+            <li>Audio</li>
+            <li>Wearables</li>
+            <li>Cases & Protection</li>
+            <li>Power & Cables</li>
+            <li>Bundles</li>
+            <li>Gear</li>
+    </ul>
+    </div>
+    <div class="f61">Support
+        <ul class="f62">
+            <li>Protection Plan</li>
+            <li>Shopping FAQs</li>
+            <li>User Manuals</li>
+            <li>Service Centers</li>
+            <li>Affiliate Program</li>
+            <li>Repair Service</li>
+            <li>Repair Pricing</li>
+            <li>TV Spare Part Price</li>
+            <li>Software Update</li>
+        </ul>
+    </div>
+    <div class="f61">Explore
+        <ul class="f62">
+            <li>About OnePlus </li>
+            <li>Community</li>
+            <li>Find a store</li>
+            <li>OnePlus Store app</li>
+            <li>OxygenOS</li>
+            <li>Press</li>
+            <li>Blog</li>
+            <li>Careers</li>
+            <li>Campus Opportunities</li>
+        </ul>
+    </div>
+    <div class="f61">Programs
+        <ul class="f62">
+            <li>Exchange Program</li>
+            <li>Red Cable Club</li>
+        </ul>
+    </div>
+</section>
+<section class="fo">
+    <div class="f1">
+        <p><i class="fa fa-credit-card" aria-hidden="true"></i> Credit/Debit Card</p>
+        <p><i class="fa fa-university" aria-hidden="true"></i> NetBanking</p>
+        <p><i class="fa fa-circle-o-notch" aria-hidden="true"></i>EMI</p>
+        <p><i class="fa fa-google-wallet" aria-hidden="true"></i>Wallet</p>
+    </div>
+    <div class="f5">
+        <p><i class="fa fa-facebook-official" aria-hidden="true"></i></p>
+        <p><i class="fa fa-twitter" aria-hidden="true"></i></p>
+        <p><i class="fa fa-instagram" aria-hidden="true"></i></p>
+        <p>Get Support From OnePlus<i class="fa fa-chevron-down" aria-hidden="true"></i></p>
+    </div>
+</section>
+<section class="fo">
+    <hr style="color: #fdfcfc; background-color: #ffffff;width: 100%;" size="2px">
+</section>
+<section class="fo">
+    <div class="fot">Privacy Policy|</div>
+    <div class="fot">User Agreement|</div>
+    <div class="fot">
+        Terms of Sales|</div>
+    <div class="fot">E-waste management|</div>
+    <div class="fot">
+        Security Feedback|</div>
+    <div class="fot">
+        © 2013 - 2023 OnePlus. All Rights Reserved.</div>
+    <div class="fot">
+        <img src="img/lastim.png" alt="" width="50%">
+    </div>
+    <div class="fot1">India (English)<i class="fa fa-globe" aria-hidden="true"></i></div>
+</section>
+</body>
+</html>
